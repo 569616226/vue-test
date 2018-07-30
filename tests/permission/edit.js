@@ -40,7 +40,7 @@ module.exports = {
 
             //输入权限名
             .waitForElementVisible(permissionNameInput, pauseTime)
-            .setValue(permissionNameInput,'1')
+            .setValue(permissionNameInput,Math.floor(Math.random() * 100))
 
             //输入标识
             .waitForElementVisible(permissionDisPlayNameInput, pauseTime)

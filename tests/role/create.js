@@ -39,7 +39,7 @@ module.exports = {
 
             //输入角色名
             .waitForElementVisible(rolenameInput, pauseTime)
-            .setValue(rolenameInput,'testRole')
+            .setValue(rolenameInput,'testRole' + Math.floor(Math.random() * 100))
 
             //输入标识
             .waitForElementVisible(roleNameInput, pauseTime)

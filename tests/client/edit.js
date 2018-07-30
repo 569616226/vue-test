@@ -11,6 +11,7 @@ module.exports = {
         const usernameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
         const phoneInput = "//div[@class='right']//form/div[2]/div[1]/div[1]/input[@type='text']";
         const submitBtn = "//button/span[text()='提交']";
+        const nnn = Math.floor(Math.random() * 10);
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
@@ -32,18 +33,18 @@ module.exports = {
             .pause(pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/CustomerContactMange')
 
-        //编辑
+            //编辑
             .waitForElementVisible(editClientBtn, pauseTime)
             .click(editClientBtn)
             .assert.urlContains('Mange/EditCustomerContact')
 
-        //输入姓名
+            //输入姓名
             .waitForElementVisible(usernameInput, pauseTime)
-            .setValue(usernameInput, 'testUser_2')
+            .setValue(usernameInput, '1234' + Math.floor(Math.random() * 100))
 
             //输入手机号码
             .waitForElementVisible(phoneInput, pauseTime)
-            .setValue(phoneInput, '13411108341')
+            .setValue(phoneInput,'13' + nnn + nnn + nnn + nnn + nnn + nnn + nnn+ nnn + nnn)
 
             .waitForElementVisible(submitBtn, pauseTime)
             .click(submitBtn)

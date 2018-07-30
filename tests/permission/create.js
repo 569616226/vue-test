@@ -12,8 +12,10 @@ module.exports = {
         const permissionNameInput = "//div[@class='right']//form/div[2]/div[1]/div[1]/input[@type='text']";
         const permissionDisPlayNameInput = "//div[@class='right']//form/div[3]/div[1]/div[1]/input[@type='text']";
         const submitBtn = "//button/span[text()='提交']";
+        const permissionRoute = 'testPermission' + Math.floor(Math.random() * 100);
 
         // 启动浏览器并打开http://permission.check.elinkport.com
+
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
@@ -40,7 +42,7 @@ module.exports = {
 
             //输入权限名
             .waitForElementVisible(permissionRouteInput, pauseTime)
-            .setValue(permissionRouteInput,'testPermission')
+            .setValue(permissionRouteInput,permissionRoute)
 
             //输入标识
             .waitForElementVisible(permissionNameInput, pauseTime)

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="admin.edit"
-    errors="0" failures="0" hostname="" id="" package="admin" skipped="0"
-    tests="1" time="44.95" timestamp="Fri, 27 Jul 2018 07:25:42 GMT">
+    errors="0" failures="1" hostname="" id="" package="admin" skipped="0"
+    tests="1" time="51.14" timestamp="Mon, 30 Jul 2018 00:59:36 GMT">
   
-    <testcase name="get edit_admin in youqikang" classname="admin.edit" time="44.95" assertions="17">
+    <testcase name="get edit_admin in youqikang" classname="admin.edit" time="51.14" assertions="18">
 
     
 
@@ -40,6 +40,9 @@
     
 
     
+
+      <failure message="Testing if the URL equals &#34;https://admin.check.elinkport.com/SetUp/UsersMange&#34;.">    at Object.get edit_admin in youqikang (D:\vue_test\tests\admin\edit.js:76:21)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
 
     
     </testcase>
@@ -47,8 +50,8 @@
 
   
     <system-err>
-      ERROR: Unable to locate element: &#34;//body/div[2]//button/span[text()=&#39;确定&#39;]&#34; using: xpath
-    at Object.edit plan in edit order in youqikang (D:\vue_test\tests\order\edit_plan_in_edit_order.js:124:14)
+      ERROR: Unable to locate element: &#34;//div[@x-placement]/div[1]/div[1]/ul/li[1]/span&#34; using: xpath
+    at Object.edit plan in edit order in youqikang (D:\vue_test\tests\order\edit_plan_in_edit_order.js:111:14)
     at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
     at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (D:\vue_test\node_modules\q\q.js:834:54)
@@ -58,7 +61,7 @@
     at runSingle (D:\vue_test\node_modules\q\q.js:137:13)
     at flush (D:\vue_test\node_modules\q\q.js:125:13)
     at process._tickCallback (internal/process/next_tick.js:61:11)
-ERROR: Unable to locate element: &#34;//body/div[2]//button/span[text()=&#39;取消&#39;]&#34; using: xpath
+ERROR: Unable to locate element: &#34;//body/div[last()-1]/div[1]/div[3]/button[1]/span&#34; using: xpath
     at Object.edit plan in edit order in youqikang (D:\vue_test\tests\order\edit_plan_in_edit_order.js:128:14)
     at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
     at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29

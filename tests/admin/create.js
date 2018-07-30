@@ -15,6 +15,7 @@ module.exports = {
         const roleSelectInput = "//div[@class='right']//form/div[5]/div[1]/div[1]/div[1]/input[@placeholder='请选择角色']";
         const roleSelectInputOption = "//div[@x-placement='top-start']/div[1]/div[1]/ul/li[3]/span";
         const submitBtn = "//button/span[text()='提交']";
+        const nnn = Math.floor(Math.random() * 10);
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
@@ -44,11 +45,11 @@ module.exports = {
 
             //输入姓名
             .waitForElementVisible(usernameInput, pauseTime)
-            .setValue(usernameInput,'testUser_2')
+            .setValue(usernameInput,'testUser_#')
 
             //输入账号
             .waitForElementVisible(adminNameInput, pauseTime)
-            .setValue(adminNameInput,'testUserName_3')
+            .setValue(adminNameInput,'testUserName'+ Math.floor(Math.random() * 100))
 
             //输入密码
             .waitForElementVisible(passwordInput, pauseTime)
@@ -56,7 +57,7 @@ module.exports = {
 
             //输入手机号
             .waitForElementVisible(phoneInput, pauseTime)
-            .setValue(phoneInput,'13411108341')
+            .setValue(phoneInput,'13' + nnn + nnn + nnn + nnn + nnn + nnn + nnn+ nnn + nnn)
 
             //选择角色
             .waitForElementVisible(roleSelectInput, pauseTime)

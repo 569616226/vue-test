@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="permission.create"
+    errors="0" failures="1" hostname="" id="" package="permission" skipped="0"
+    tests="1" time="27.93" timestamp="Fri, 27 Jul 2018 08:44:52 GMT">
+  
+    <testcase name="get create_permission in youqikang" classname="permission.create" time="27.93" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the URL equals &#34;https://admin.check.elinkport.com/SetUp/PermissionsMange&#34;.">    at Object.get create_permission in youqikang (D:\vue_test\tests\permission\create.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="order.create_with_copy_form_old_plan"
+    errors="0" failures="1" hostname="" id="" package="order" skipped="0"
+    tests="1" time="37.22" timestamp="Wed, 25 Jul 2018 03:42:58 GMT">
+  
+    <testcase name="create order in youqikang" classname="order.create_with_copy_form_old_plan" time="37.22" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//span[text()=&#39;Elroy Reichert&#39;]&gt; to be visible for 5000 milliseconds.">    at Object.create order in youqikang (D:\vue_test\tests\order\create_with_copy_from_old_plan.js:53:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

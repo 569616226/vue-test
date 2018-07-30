@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="client.create"
+    errors="0" failures="1" hostname="" id="" package="client" skipped="0"
+    tests="1" time="42.08" timestamp="Fri, 27 Jul 2018 09:17:08 GMT">
+  
+    <testcase name="get create_client in youqikang" classname="client.create" time="42.08" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the URL equals &#34;https://admin.check.elinkport.com/Mange/CustomerContactMange&#34;.">    at Object.get create_client in youqikang (D:\vue_test\tests\client\create.js:52:21)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

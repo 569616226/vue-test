@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="permission.edit"
+    errors="0" failures="0" hostname="" id="" package="permission" skipped="0"
+    tests="1" time="29.82" timestamp="Fri, 27 Jul 2018 08:55:23 GMT">
+  
+    <testcase name="get edit_permission in youqikang" classname="permission.edit" time="29.82" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

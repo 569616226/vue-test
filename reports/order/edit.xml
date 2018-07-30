@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="order.edit"
+    errors="1" failures="0" hostname="" id="" package="order" skipped="0"
+    tests="1" time="0.01500" timestamp="Wed, 25 Jul 2018 05:37:43 GMT">
+  
+    <testcase name="edit order in youqikang" classname="order.edit" time="0.01500" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Order / Edit / edit order in youqikang]:
+
+  ReferenceError: selectCurrentPlan is not defined
+    at Object.edit order in youqikang (D:\vue_test\tests\order\edit.js:39:36)
+    at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\vue_test\node_modules\q\q.js:834:54)
+    at D:\vue_test\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (D:\vue_test\node_modules\q\q.js:796:13)
+    at D:\vue_test\node_modules\q\q.js:556:49
+    at runSingle (D:\vue_test\node_modules\q\q.js:137:13)
+    at flush (D:\vue_test\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

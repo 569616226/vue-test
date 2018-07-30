@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="order.edit_plan_in_edit_order"
+    errors="1" failures="0" hostname="" id="" package="order" skipped="0"
+    tests="1" time="0.02900" timestamp="Wed, 25 Jul 2018 08:19:45 GMT">
+  
+    <testcase name="edit plan in edit order in youqikang" classname="order.edit_plan_in_edit_order" time="0.02900" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Order / Edit Plan In Edit Order / edit plan in edit order in youqikang]:
+
+  TypeError: client.url(...).maximizeWindow(...).assert.urlEquals(...).waitForElementVisible(...).setValue(...).waitForElementVisible(...).setValue(...).click(...).waitForElementVisible(...).assert.containsText(...).assert.urlEquals(...).useXpath(...).click(...).pause(...).assert.urlContains(...).waitForElementVisible(...).click(...).assert.urlContains(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).pause(...).assert.cssProperty(...).click(...).waitForElementVisible(...).assert.cssClassNotPresent(...).setValue(...).click(...).click(...).click(...).click(...).click(...).pause(...).assert.cssProperty(...).click(...).assert.cssClassNotPresent(...).setValue(...).assert.vaule is not a function
+    at Object.edit plan in edit order in youqikang (D:\vue_test\tests\order\edit_plan_in_edit_order.js:87:21)
+    at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\vue_test\node_modules\q\q.js:834:54)
+    at D:\vue_test\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (D:\vue_test\node_modules\q\q.js:796:13)
+    at D:\vue_test\node_modules\q\q.js:556:49
+    at runSingle (D:\vue_test\node_modules\q\q.js:137:13)
+    at flush (D:\vue_test\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

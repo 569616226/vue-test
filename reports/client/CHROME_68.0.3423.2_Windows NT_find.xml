@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="client.find"
+    errors="0" failures="0" hostname="" id="" package="client" skipped="0"
+    tests="1" time="26.14" timestamp="Fri, 27 Jul 2018 09:29:03 GMT">
+  
+    <testcase name="get client in youqikang" classname="client.find" time="26.14" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

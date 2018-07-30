@@ -1,23 +1,24 @@
-module.exports = {
-    'get permission in youqikang': function (client) {
-        // 定义页面元素
-        const pauseTime = 5000;
-        const nameInput = "input[type=text]";
-        const pwdInput = "input[type=password]";
-        const loginBtn = "button[type=button]";
-        const homePageText = "p.admin-home-p2";
-        const permissionMangeNav = "//div[@class='left']//span[text()='权限管理']";
-        const permissionNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
-        const permissionDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='权限详情']";
+// 定义页面元素
+const pauseTime = 5000;
+const nameInput = "input[type=text]";
+const pwdInput = "input[type=password]";
+const loginBtn = "button[type=button]";
+const homePageText = "p.admin-home-p2";
+const permissionMangeNav = "//div[@class='left']//span[text()='权限管理']";
+const permissionNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
+const permissionDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='权限详情']";
+const mock = require('../../mock/mock.js');
 
+module.exports = {
+'get permission in youqikang': function (client) {
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
             .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, 'Super Admin')//输入账号
+            .setValue(nameInput, mock.super_admin)//输入账号
             .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, 'admin123456')//输入密码
+            .setValue(pwdInput, mock.super_admin_password)//输入密码
             .click(loginBtn)//点击登陆
             .waitForElementVisible(homePageText, pauseTime)
             .assert.containsText(homePageText, "欢迎使用，优企康管理平台")

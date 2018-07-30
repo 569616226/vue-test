@@ -1,30 +1,31 @@
+// 定义页面元素
+const pauseTime = 5000;
+const nameInput = "input[type=text]";
+const pwdInput = "input[type=password]";
+const loginBtn = "button[type=button]";
+const homePageText = "p.admin-home-p2";
+const OrderMangeNav = "//span[text()='订单管理']";
+const createOrder = "//span[text()='新建订单']";
+const selectCurrentPlan = "//p[text()='新建方案']";
+const PlanNameInput = "//div[@class='right']//form/div[1]//input[1]";
+const selectOldPlanType = "//div[@class='right']//form//div[@role='radiogroup']/label[@role='radio'][2]";
+const selectOldPlanContentOption_1 = "//span[@class='el-checkbox__inner'][1]";
+const selectCompanyInput = "//div[@class='right']//form/div[2]//input[1]";
+const selectCompanyOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span";
+const mock = require('../../mock/mock.js');
+const createOrderBtn = "//div[@class='right']//form//button/span[text()='提交']";
+
 module.exports = {
-    'create no copy from old plan order in youqikang': function (client) {
-        // 定义页面元素
-        const pauseTime = 5000;
-        const nameInput = "input[type=text]";
-        const pwdInput = "input[type=password]";
-        const loginBtn = "button[type=button]";
-        const homePageText = "p.admin-home-p2";
-        const OrderMangeNav = "//span[text()='订单管理']";
-        const createOrder = "//span[text()='新建订单']";
-        const selectCurrentPlan = "//p[text()='新建方案']";
-        const PlanNameInput = "//div[@class='right']//form/div[1]//input[1]";
-        const selectOldPlanType = "//div[@class='right']//form//div[@role='radiogroup']/label[@role='radio'][2]";
-        const selectOldPlanContentOption_1 = "//span[@class='el-checkbox__inner'][1]";
-        const selectCompanyInput = "//div[@class='right']//form/div[2]//input[1]";
-        const selectCompanyOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span";
-        const orderNameInput = "//div[@class='right']//form/div[3]//input";
-        const createOrderBtn = "//div[@class='right']//form//button/span[text()='提交']";
+'create no copy from old plan order in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
 
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
             .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, 'Super Admin')//输入用户名
+            .setValue(nameInput, mock.super_admin)//输入用户名
             .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, 'admin123456')//输入密码
+            .setValue(pwdInput, mock.super_admin_password)//输入密码
             .click(loginBtn)//登陆
             .waitForElementVisible(homePageText, pauseTime)
             .assert.containsText(homePageText, "欢迎使用，优企康管理平台")

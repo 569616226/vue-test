@@ -4,13 +4,14 @@ const nameInput = "input[type=text]";
 const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
-const clientMangeNav = "//div[@class='left']//span[text()='客户联系人管理']";
-const clientNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
-const clientDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='客户联系人详情']";
+const companyMangeNav = "//div[@class='left']//span[text()='客户管理']";
+const companyNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
+const companyDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='企业信息详情']";
 const mock = require('../../mock/mock.js');
 
 module.exports = {
-    'get client in youqikang': function (client) {
+    'get company in youqikang': function (client) {
+
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
             //登陆
@@ -24,16 +25,16 @@ module.exports = {
             .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
-            //客户联系人管理
+            //账号管理
             .useXpath()
-            .waitForElementVisible(clientMangeNav, pauseTime)
-            .click(clientMangeNav)
+            .waitForElementVisible(companyMangeNav, pauseTime)
+            .click(companyMangeNav)
             .pause(pauseTime)
-            .assert.urlEquals(client.launchUrl + 'Mange/CustomerContactMange')
-            .click(clientNameLink)
-            .waitForElementVisible(clientDetailDiv, pauseTime)
+            .assert.urlEquals(client.launchUrl + 'Mange/CustomerMange')
+            .click(companyNameLink)
+            .waitForElementVisible(companyDetailDiv, pauseTime)
 
-            .saveScreenshot('reports/find_client.png') // 截屏
+            .saveScreenshot('reports/find_company.png') // 截屏
             .end()
     }
 }

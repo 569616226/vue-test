@@ -36,7 +36,7 @@ module.exports = {
 
             .assert.containsText(contentInput, content)
 
-            .elementIdValue(contentInput)
+            .clearValue(contentInput)
             .pause(pauseTime)
             .click(contentInput)
             .pause(pauseTime)

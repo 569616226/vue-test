@@ -42,13 +42,13 @@ module.exports = {
 
             //输入角色名
             .waitForElementVisible(roleNameInput, pauseTime)
-            .elementIdValue(roleNameInput)
+            .clearValue(roleNameInput)
             .pause(pauseTime)
             .setValue(roleNameInput,mock.name)
 
             //输入标识
             .waitForElementVisible(roleDisplayNameInput, pauseTime)
-            .elementIdValue(roleDisplayNameInput)
+            .clearValue(roleDisplayNameInput)
             .pause(pauseTime)
             .setValue(roleDisplayNameInput,mock.cname)
 

@@ -44,7 +44,7 @@ module.exports = {
 
             //输入客户名
             .waitForElementVisible(companyNameInput, pauseTime)
-            .elementIdValue(companyNameInput)
+            .clearValue(companyNameInput)
             .pause(pauseTime)
             .setValue(companyNameInput,mock.name)
 

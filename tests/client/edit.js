@@ -42,13 +42,13 @@ module.exports = {
 
             //输入姓名
             .waitForElementVisible(usernameInput, pauseTime)
-            .elementIdValue(companyNameInput)
+            .clearValue(companyNameInput)
             .pause(pauseTime)
             .setValue(usernameInput,mock.name)
 
             //输入手机号码
             .waitForElementVisible(phoneInput, pauseTime)
-            .elementIdValue(companyNameInput)
+            .clearValue(companyNameInput)
             .pause(pauseTime)
             .setValue(phoneInput,mock.tel)
 

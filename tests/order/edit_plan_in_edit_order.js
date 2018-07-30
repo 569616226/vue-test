@@ -97,7 +97,7 @@ module.exports = {
 
             .click(editDepartBtn)//编辑部门
             .assert.cssClassNotPresent(editDepartDiv, 'display')
-            .elementIdValue(editDepartInput)
+            .clearValue(editDepartInput)
             .pause(pauseTime)
             .setValue(editDepartInput, mock.name)
             /*.assert.value(editDepartInput, 'display')*/

@@ -4,11 +4,13 @@ const nameInput = "input[type=text]";
 const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
-const clientMangeNav = "//div[@class='left']//span[text()='客户联系人管理']";
-const mock = require('../../mock/mock.js');
+const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
+const planNameLink = "//table[1]/tbody/tr[1]/td[1]/div[1]/div[1]/b";
+const planDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='方案详情']";
+const mock = require('../../../mock/mock.js');
 
 module.exports = {
-'get clients in youqikang': function (client) {
+'get find_plan in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
@@ -25,12 +27,15 @@ module.exports = {
 
         //点击订单管理
             .useXpath()
-            .waitForElementVisible(clientMangeNav, pauseTime)
-            .click(clientMangeNav)
+            .waitForElementVisible(planMangeNav, pauseTime)
+            .click(planMangeNav)
             .pause(pauseTime)
-            .assert.urlEquals(client.launchUrl + 'Mange/CustomerContactMange')
+            .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 
-            .saveScreenshot('reports/client.png') // 截屏
+            .click(planNameLink)
+            .waitForElementVisible(planDetailDiv, pauseTime)
+
+            .saveScreenshot('reports/plans.png') // 截屏
 
             .end()
     }

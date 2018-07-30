@@ -7,7 +7,7 @@
     errors="0" failures="1" hostname="" id="" package="role" skipped="0"
     tests="1" time="5.003" timestamp="Mon, 30 Jul 2018 05:57:50 GMT">
   
-    <testcase name="get roles in youqikang" classname="role.list" time="5.003" assertions="1">  <failure message="Testing if the URL equals &#34;https://admin.check.elinkport.com/login?redirect=%2F&#34;.">    at Object.get roles in youqikang (D:\vue_test\tests\role\list.js:16:21)
+    <testcase name="get roles in youqikang" classname="role.list" time="5.003" assertions="1">  <failure message="Testing if the URL equals &#34;https://admin.check.elinkport.com/login?redirect=%2F&#34;.">    at Object.get roles in youqikang (D:\vue_test\tests\role\find.js:16:21)
     at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
 
     

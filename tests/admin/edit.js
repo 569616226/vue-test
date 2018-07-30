@@ -45,25 +45,23 @@ module.exports = {
 
         //输入姓名
             .waitForElementVisible(usernameInput, pauseTime)
-            .elementIdValue(usernameInput)
+            .clearValue(usernameInput)
             .pause(pauseTime)
             .setValue(usernameInput, mock.cname)
 
             //输入姓名账号
             .waitForElementVisible(adminNameInput, pauseTime)
-            .elementIdValue(adminNameInput)
+            .clearValue(adminNameInput)
             .pause(pauseTime)
             .setValue(adminNameInput, mock.name)
 
             //输入密码
             .waitForElementVisible(passwordInput, pauseTime)
-            .elementIdValue(passwordInput)
-            .pause(pauseTime)
             .setValue(passwordInput, mock.password)
 
             //输入手机
             .waitForElementVisible(phoneInput, pauseTime)
-            .elementIdValue(phoneInput)
+            .clearValue(phoneInput)
             .pause(pauseTime)
             .setValue(phoneInput, mock.tel)
 

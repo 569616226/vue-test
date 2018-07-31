@@ -46,6 +46,7 @@ module.exports = {
             //新建方案
             .click(selectCurrentPlan)//点击新建方案
             .pause(pauseTime)
+
             .assert.urlEquals(client.launchUrl + 'Mange/AddSelectPlanOrder')
             .setValue(PlanNameInput,'test_plan_name')//输入方案名称
             .waitForElementVisible(selectOldPlanType, pauseTime)

@@ -16,6 +16,8 @@
     "selenium-standalone": "^6.15.1"
   },
   "dependencies": {
-    "mockjs": "^1.0.1-beta3"
+    "find-root": "^1.1.0",
+    "mockjs": "^1.0.1-beta3",
+    "path": "^0.12.7"
   }
 }

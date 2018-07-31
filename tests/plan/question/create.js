@@ -4,7 +4,7 @@ const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
-const editParentPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
+const editParentPlanBtn = "//div[@class='right']/div[1]/div[3]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
 const createPlanQuestionBtn = "//div[@class='right']/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button/span[text()='新增问题']";
 const planDepartNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const editAnswerBtnOne = "//div[@class='right']//form/div[2]//input[@readonly][1]";
@@ -12,10 +12,10 @@ const editAnswerBtnOneOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span"
 const editAnswerBtnTwo = "//div[@class='right']//form/div[2]//input[@readonly][last()]";
 const editAnswerBtnTwoOption = "//div[@x-placement]/div[1]/div[1]/ul/li[2]/span";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../mock/mock.js');
 
 module.exports = {
-    'get create_parent_plan_question in youqikang': function (client) {
+    'get create_plan_question in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
@@ -46,8 +46,8 @@ module.exports = {
         //新增问题
             .waitForElementVisible(createPlanQuestionBtn, pauseTime)
             .click(createPlanQuestionBtn)
-            // .pause(pauseTime)
-            // .assert.urlContains('Mange/AddQuestion')
+            .pause(pauseTime)
+            .assert.urlContains('Mange/AddQuestion')
 
         //输入问题名称
             .waitForElementVisible(planDepartNameInput, pauseTime)
@@ -64,9 +64,9 @@ module.exports = {
             .waitForElementVisible(submitBtn, pauseTime)
             .click(submitBtn)
             .pause(pauseTime)
-            .assert.urlContains('Mange/DepartsMange')
+            .assert.urlContains('Mange/EditDiagnose')
 
-            .saveScreenshot('reports/create_parent_plan_question.png') // 截屏
+            .saveScreenshot('reports/create_plan_question.png') // 截屏
             .end()
     }
 }

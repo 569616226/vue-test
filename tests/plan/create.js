@@ -4,10 +4,10 @@ const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
-const creatPlanBtn = "//button/span[text()='新建权限']";
-const planRouteInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
-const planNameInput = "//div[@class='right']//form/div[2]/div[1]/div[1]/input[@type='text']";
-const planDisPlayNameInput = "//div[@class='right']//form/div[3]/div[1]/div[1]/input[@type='text']";
+const creatPlanBtn = "//button/span[text()='新增方案']";
+const PlanNameInput = "//div[@class='right']//form/div[1]//input[1]";
+const selectOldPlanType = "//div[@class='right']//form//div[@role='radiogroup']/label[@role='radio'][2]";
+const selectOldPlanContentOption_1 = "//span[@class='el-checkbox__inner'][1]";
 const submitBtn = "//button/span[text()='提交']";
 const mock = require('../../mock/mock.js');
 
@@ -28,34 +28,28 @@ module.exports = {
             .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
-            //权限管理
+            //方案管理
             .useXpath()
             .waitForElementVisible(planMangeNav, pauseTime)
             .click(planMangeNav)
             .pause(pauseTime)
-            .assert.urlEquals(client.launchUrl + 'SetUp/PlanMange')
+            .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 
-            //新建权限
+            //新建方案
             .waitForElementVisible(creatPlanBtn, pauseTime)
             .click(creatPlanBtn)
-            .assert.urlEquals(client.launchUrl + 'SetUp/AddPlan')
+            .assert.urlEquals(client.launchUrl + 'Mange/AddDiagnose')
 
-            //输入权限名
-            .waitForElementVisible(planRouteInput, pauseTime)
-            .setValue(planRouteInput,mock.name)
-
-            //输入标识
-            .waitForElementVisible(planNameInput, pauseTime)
-            .setValue(planNameInput,mock.cname)
-
-            //输入标识
-            .waitForElementVisible(planDisPlayNameInput, pauseTime)
-            .setValue(planDisPlayNameInput,mock.cname)
+            .setValue(PlanNameInput,'test_plan_name')//输入方案名称
+            .waitForElementVisible(selectOldPlanType, pauseTime)
+            .click(selectOldPlanType)//点击不复制
+            .waitForElementVisible(selectOldPlanContentOption_1, pauseTime)
+            .click(selectOldPlanContentOption_1)
 
             .waitForElementVisible(submitBtn, pauseTime)
             .click(submitBtn)
             .pause(pauseTime)
-            .assert.urlEquals(client.launchUrl + 'SetUp/PlanMange')
+            .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
             
             .saveScreenshot('reports/create_plan.png') // 截屏
             .end()

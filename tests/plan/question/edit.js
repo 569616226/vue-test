@@ -5,7 +5,7 @@ const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
-const editParentPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
+const editParentPlanBtn = "//div[@class='right']/div[1]/div[3]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
 const editQuestionPlanBtn = "//table/tbody/tr[1]/td[3]/div[1]/div[1]//span[1]";
 const planDisPlayNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const editAnswerBtnOne = "//div[@class='right']//form/div[2]//input[@readonly][1]";
@@ -13,10 +13,10 @@ const editAnswerBtnOneOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span"
 const editAnswerBtnTwo = "//div[@class='right']//form/div[2]//input[@readonly][last()]";
 const editAnswerBtnTwoOption = "//div[@x-placement]/div[1]/div[1]/ul/li[2]/span";
 const submitBtn = "//div[@class='right']//form/div[3]/div[1]/button[1]/span[text()='提交']";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../mock/mock.js');
 
 module.exports = {
-    'get edit_parent_plan_question in youqikang': function (client) {
+    'get edit_plan_question in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
@@ -68,7 +68,7 @@ module.exports = {
 
             .assert.urlContains('Mange/EditDiagnose')
 
-            .saveScreenshot('reports/edit_parent_plan_question.png') // 截屏
+            .saveScreenshot('reports/edit_plan_question.png') // 截屏
             .end()
     }
 }

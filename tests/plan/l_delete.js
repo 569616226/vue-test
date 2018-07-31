@@ -5,7 +5,7 @@ const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
-const delPlanBtn = "//table/tbody/tr[1]/td[4]/div[1]/div[1]//span[2]";
+const delPlanBtn = "//div[@class='right']/div[1]/div[3]//table[1]/tbody/tr[1]/td[4]//span[2]";
 const confirmBtn = "//body/div[last()-1]/div[1]/div[3]/button[2]/span";
 const mock = require('../../mock/mock.js');
 
@@ -30,7 +30,7 @@ module.exports = {
             .waitForElementVisible(planMangeNav, pauseTime)
             .click(planMangeNav)
             .pause(pauseTime)
-            .assert.urlEquals(client.launchUrl + 'SetUp/PlansMange')
+            .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 
             //删除
             .assert.containsText(delPlanBtn, "删除")

@@ -5,9 +5,9 @@
 
   <testsuite name="plan.parent.question.create"
     errors="0" failures="1" hostname="" id="" package="question" skipped="0"
-    tests="1" time="26.06" timestamp="Mon, 30 Jul 2018 09:33:11 GMT">
+    tests="1" time="120.1" timestamp="Tue, 31 Jul 2018 04:29:56 GMT">
   
-    <testcase name="get create_parent_plan_question in youqikang" classname="plan.parent.question.create" time="26.06" assertions="12">
+    <testcase name="get create_parent_plan_question in youqikang" classname="plan.parent.question.create" time="120.1" assertions="11">
 
     
 
@@ -27,9 +27,7 @@
 
     
 
-    
-
-      <failure message="Testing if the URL contains &#34;Mange/AddQuestion&#34;.">    at Object.get create_parent_plan_question in youqikang (D:\vue_test\tests\plan\parent\question\create.js:49:21)
+      <failure message="Testing if the URL contains &#34;Mange/AddQuestion&#34;.">    at Object.get create_parent_plan_question in youqikang (D:\vue_test\tests\plan\parent\question\create.js:50:21)
     at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
 
     

@@ -9,6 +9,7 @@ const planDepartMangeBtn = "//div[@class='right']//span[text()='管理部门']";
 const creatPlanDepartBtn = "//button/span[text()='新建部门']";
 const planDepartNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//button/span[text()='提交']";
+const imageErrorDiv = "//div[@class='el-form-item__error']";
 const mock = require('../../../../mock/mock.js');
 
 module.exports = {
@@ -55,14 +56,12 @@ module.exports = {
             .waitForElementVisible(planDepartNameInput, pauseTime)
             .setValue(planDepartNameInput, mock.name)
 
-            //上传图片，直接插入img element
-            // .waitForElementVisible(planNameInput, pauseTime)
-            // .setValue(planNameInput,mock.cname)
+            /*无法测试上传图片*/
 
             .waitForElementVisible(submitBtn, pauseTime)
             .click(submitBtn)
             .pause(pauseTime)
-            .assert.urlContains('Mange/DepartsMange')
+            .assert.containsText(imageErrorDiv, '请选择图片')
 
             .saveScreenshot('reports/create_parent_plan_depart.png') // 截屏
             .end()

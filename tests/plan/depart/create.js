@@ -4,15 +4,24 @@ const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
-const editPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
+const editPlanBtn = "//div[@class='right']/div[1]/div[3]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
 const planDepartMangeBtn = "//div[@class='right']//span[text()='管理部门']";
 const creatPlanDepartBtn = "//button/span[text()='新建部门']";
 const planDepartNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
+// const imgUploadIcon = "//input[@type='file']";
+const imageErrorDiv = "//div[@class='el-form-item__error']";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../mock/mock.js');
+
+// var path = require("path"),
+//     findroot = require("find-root");
+// root = findroot(path.resolve(__dirname));
+// var FILENAME = "timg.jpg.png",
+//     FILEPATH = "/common/images/",
+//     file = path.resolve(root + FILEPATH + FILENAME);
 
 module.exports = {
-    'get create_parent_plan_depart in youqikang': function (client) {
+    'get create_plan_depart in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
 
@@ -55,16 +64,20 @@ module.exports = {
             .waitForElementVisible(planDepartNameInput, pauseTime)
             .setValue(planDepartNameInput, mock.name)
 
-            //上传图片，直接插入img element
-            // .waitForElementVisible(planNameInput, pauseTime)
-            // .setValue(planNameInput,mock.cname)
+            /*无法测试上传图片*/
+            //     .waitForElementVisible(imgUploadIcon, pauseTime)
+            //     .setValue(imgUploadIcon, file, function(result){
+            //         if(result.status !== 0){
+            //             console.log(result);
+            //         }
+            //     })
 
             .waitForElementVisible(submitBtn, pauseTime)
             .click(submitBtn)
             .pause(pauseTime)
-            .assert.urlContains('Mange/DepartsMange')
+            .assert.containsText(imageErrorDiv, '请选择图片')
 
-            .saveScreenshot('reports/create_parent_plan_depart.png') // 截屏
+            .saveScreenshot('reports/create_plan_depart.png') // 截屏
             .end()
     }
 }

@@ -5,15 +5,15 @@ const pwdInput = "input[type=password]";
 const loginBtn = "button[type=button]";
 const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
-const editPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
+const editPlanBtn = "//div[@class='right']/div[1]/div[3]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
 const planDepartMangeBtn = "//div[@class='right']//span[text()='管理部门']";
 const editDedaprtPlanBtn = "//table/tbody/tr[1]/td[2]//span[text()='编辑']";
 const planDisPlayNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//div[@class='right']//form/div[3]/div[1]/button[1]/span[text()='提交']";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../mock/mock.js');
 
 module.exports = {
-    'get edit_parent_plan_depart in youqikang': function (client) {
+    'get edit_plan_depart in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
         client.url(client.launchUrl).maximizeWindow()
@@ -62,7 +62,7 @@ module.exports = {
             .pause(pauseTime)
             .assert.urlContains('Mange/DepartsMange')
 
-            .saveScreenshot('reports/edit_parent_plan_depart.png') // 截屏
+            .saveScreenshot('reports/edit_plan_depart.png') // 截屏
             .end()
     }
 }

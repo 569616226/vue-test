@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="plan.parent.depart.create"
+    errors="0" failures="1" hostname="" id="" package="depart" skipped="0"
+    tests="1" time="31.41" timestamp="Mon, 30 Jul 2018 07:48:08 GMT">
+  
+    <testcase name="get create_plan_depart in youqikang" classname="plan.parent.depart.create" time="31.41" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the URL equals &#34;https://admin.check.elinkport.com/Mange/DiagnoseMange&#34;.">    at Object.get create_plan_depart in youqikang (D:\vue_test\tests\plan\parent\depart\create.js:65:21)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

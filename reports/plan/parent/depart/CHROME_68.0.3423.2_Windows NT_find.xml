@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="plan.parent.depart.find"
+    errors="0" failures="1" hostname="" id="" package="depart" skipped="0"
+    tests="1" time="30.63" timestamp="Mon, 30 Jul 2018 08:04:33 GMT">
+  
+    <testcase name="get find_parent_plan_depart in youqikang" classname="plan.parent.depart.find" time="30.63" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//div[@class=&#39;right&#39;]//div[@class=&#39;el-dialog__wrapper previewcol&#39;]/div[1]/div[1]/span[text()=&#39;方案详情&#39;]&gt; to be present for 5000 milliseconds.">    at Object.get find_parent_plan_depart in youqikang (D:\vue_test\tests\plan\parent\depart\find.js:49:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

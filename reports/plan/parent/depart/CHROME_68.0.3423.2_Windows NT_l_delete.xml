@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="plan.parent.depart.l_delete"
+    errors="0" failures="0" hostname="" id="" package="depart" skipped="0"
+    tests="1" time="37.11" timestamp="Mon, 30 Jul 2018 08:09:17 GMT">
+  
+    <testcase name="get del_parent_plan_depart in youqikang" classname="plan.parent.depart.l_delete" time="37.11" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

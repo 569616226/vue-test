@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="plan.parent.find"
+    errors="0" failures="0" hostname="" id="" package="parent" skipped="0"
+    tests="1" time="20.25" timestamp="Mon, 30 Jul 2018 06:57:32 GMT">
+  
+    <testcase name="get find_plan in youqikang" classname="plan.parent.find" time="20.25" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

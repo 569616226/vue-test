@@ -22,5 +22,15 @@ module.exports = {
     tel: tel,
     company_name: company_name,
     super_admin: 'Super Admin',
-    super_admin_password: 'admin123456'
+    super_admin_password: 'admin123456',
+
+    //通用元素
+    alertDiv: "//div[@role='alert']/p",
+    pauseTime: 5000,
+    nameInput: "input[type=text]",
+    pwdInput: "input[type=password]",
+    loginBtn: "button[type=button]",
+    homePageText: "p.admin-home-p2",
+
+
 };

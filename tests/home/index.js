@@ -1,9 +1,3 @@
-// 定义页面元素
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-const homePageText = "p.admin-home-p2";
 const homeNavBtn = "//div[@class='left']/div[1]/ul/li[1]/span";
 const createOrderBtn = "//p[text()='新建订单']";
 const createPlanBtn = "//p[text()='新建诊断方案']";
@@ -18,50 +12,50 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
         //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)//输入密码
-            .click(loginBtn)//点击登陆
-            .waitForElementVisible(homePageText, pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)//输入账号
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+            .click(mock.loginBtn)//点击登陆
+            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
             //点击新建订单
             .useXpath()
-            .waitForElementVisible(createOrderBtn, pauseTime)
+            .waitForElementVisible(createOrderBtn, mock.pauseTime)
             .click(createOrderBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/SelectPlan')
 
-            .waitForElementVisible(homeNavBtn, pauseTime)
+            .waitForElementVisible(homeNavBtn, mock.pauseTime)
             .click(homeNavBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl)
 
-            .waitForElementVisible(createPlanBtn, pauseTime)
+            .waitForElementVisible(createPlanBtn, mock.pauseTime)
             .click(createPlanBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/AddDiagnose')
 
-            .waitForElementVisible(homeNavBtn, pauseTime)
+            .waitForElementVisible(homeNavBtn, mock.pauseTime)
             .click(homeNavBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl)
 
-            .waitForElementVisible(createCompanyBtn, pauseTime)
+            .waitForElementVisible(createCompanyBtn, mock.pauseTime)
             .click(createCompanyBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/AddCustomer')
 
-            .waitForElementVisible(homeNavBtn, pauseTime)
+            .waitForElementVisible(homeNavBtn, mock.pauseTime)
             .click(homeNavBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl)
 
-            .waitForElementVisible(createClientBtn, pauseTime)
+            .waitForElementVisible(createClientBtn, mock.pauseTime)
             .click(createClientBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/AddCustomerContact')
 
             .saveScreenshot('reports/homes.png') // 截屏

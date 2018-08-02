@@ -1,9 +1,4 @@
-// 定义页面元素
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-const homePageText = "p.admin-home-p2";
+
 const OrderMangeNav = "//span[text()='订单管理']";
 const createOrder = "//span[text()='新建订单']";
 const selectCurrentPlan = "//p[text()='选择现有方案']";
@@ -22,43 +17,43 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)
-            .click(loginBtn)
-            .waitForElementVisible(homePageText, pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)
+            .click(mock.loginBtn)
+            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
             //点击订单管理
             .useXpath()
             .click(OrderMangeNav)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/OrderMange')
-            .waitForElementVisible(createOrder, pauseTime)
+            .waitForElementVisible(createOrder, mock.pauseTime)
 
             //点击新建订单
             .click(createOrder)
             .assert.urlEquals(client.launchUrl + 'Mange/SelectPlan')
-            .waitForElementVisible(selectCurrentPlan, pauseTime)
+            .waitForElementVisible(selectCurrentPlan, mock.pauseTime)
 
             //新建客户
             .click(selectCurrentPlan)
-            .waitForElementVisible(createCompanyInCreateOrder, pauseTime)
+            .waitForElementVisible(createCompanyInCreateOrder, mock.pauseTime)
             .click(createCompanyInCreateOrder)
-            .waitForElementVisible(companyNameInput, pauseTime)
+            .waitForElementVisible(companyNameInput, mock.pauseTime)
             .setValue(companyNameInput,mock.company_name)
             .click(clientSelectInput)
-            .waitForElementVisible(clientSelectOption_1, pauseTime)
+            .waitForElementVisible(clientSelectOption_1, mock.pauseTime)
             .click(clientSelectOption_1)
             .click(clientSelectOption_2)
-            .waitForElementVisible(createCompanyInCreateOrderBtn, pauseTime)
+            .waitForElementVisible(createCompanyInCreateOrderBtn, mock.pauseTime)
             .click(createCompanyInCreateOrderBtn)
 
             .saveScreenshot('reports/create_company_in_create_order.png') // 截屏
 
-            .waitForElementNotVisible(createCompanyInCreateOrderBtn, pauseTime)
+            .waitForElementNotVisible(createCompanyInCreateOrderBtn, mock.pauseTime)
             .end()
     }
 }

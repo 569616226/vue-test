@@ -5,9 +5,9 @@
 
   <testsuite name="plan.parent.depart.create"
     errors="0" failures="0" hostname="" id="" package="depart" skipped="0"
-    tests="1" time="32.87" timestamp="Tue, 31 Jul 2018 03:47:17 GMT">
+    tests="1" time="30.39" timestamp="Thu, 02 Aug 2018 02:10:06 GMT">
   
-    <testcase name="get create_parent_plan_depart in youqikang" classname="plan.parent.depart.create" time="32.87" assertions="17">
+    <testcase name="get create_parent_plan_depart in youqikang" classname="plan.parent.depart.create" time="30.39" assertions="17">
 
     
 
@@ -47,7 +47,31 @@
 
   
     <system-err>
-      ERROR: Unable to locate element: &#34;//table/tbody/tr[1]/td[2]/div[1]/div[1]//span[2]&#34; using: xpath
+        Error while running [Client / Edit / get edit_client in youqikang]:
+
+  ReferenceError: companyNameInput is not defined
+    at Object.get edit_client in youqikang (D:\vue_test\tests\client\edit.js:45:25)
+    at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\vue_test\node_modules\q\q.js:834:54)
+    at D:\vue_test\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (D:\vue_test\node_modules\q\q.js:796:13)
+    at D:\vue_test\node_modules\q\q.js:556:49
+    at runSingle (D:\vue_test\node_modules\q\q.js:137:13)
+    at flush (D:\vue_test\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+ERROR: Unable to locate element: &#34;//div[@role=&#39;treeitem&#39;]/div/span[2]/span[2]/i[1]&#34; using: xpath
+    at Object.edit plan in edit order in youqikang (D:\vue_test\tests\order\edit_plan_in_edit_order.js:83:14)
+    at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\vue_test\node_modules\q\q.js:834:54)
+    at D:\vue_test\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (D:\vue_test\node_modules\q\q.js:796:13)
+    at D:\vue_test\node_modules\q\q.js:556:49
+    at runSingle (D:\vue_test\node_modules\q\q.js:137:13)
+    at flush (D:\vue_test\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+ERROR: Unable to locate element: &#34;//table/tbody/tr[1]/td[2]/div[1]/div[1]//span[2]&#34; using: xpath
     at F.command (D:\vue_test\node_modules\nightwatch\lib\api\assertions\containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (D:\vue_test\node_modules\nightwatch\lib\core\assertion.js:87:17)
     at F.module.exports.BaseAssertion._executeCommand (D:\vue_test\node_modules\nightwatch\lib\core\assertion.js:82:17)

@@ -1,10 +1,4 @@
 const mock = require('../../mock/mock.js');
-// 定义页面元素
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-const homePageText = "p.admin-home-p2";
 const companyMangeNav = "//div[@class='left']//span[text()='客户管理']";
 const editCompanyBtn = "//table/tbody/tr[1]/td[4]//span[text()='编辑']";
 const companyNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
@@ -21,44 +15,44 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)//输入密码
-            .click(loginBtn)//点击登陆
-            .waitForElementVisible(homePageText, pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)//输入账号
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+            .click(mock.loginBtn)//点击登陆
+            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
             //账号管理
             .useXpath()
-            .waitForElementVisible(companyMangeNav, pauseTime)
+            .waitForElementVisible(companyMangeNav, mock.pauseTime)
             .click(companyMangeNav)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/CustomerMange')
 
             //编辑
-            .waitForElementVisible(editCompanyBtn, pauseTime)
+            .waitForElementVisible(editCompanyBtn, mock.pauseTime)
             .click(editCompanyBtn)
             .assert.urlContains('Mange/EditCustomer')
 
             //输入客户名
-            .waitForElementVisible(companyNameInput, pauseTime)
+            .waitForElementVisible(companyNameInput, mock.pauseTime)
             .clearValue(companyNameInput)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .setValue(companyNameInput,mock.name)
 
             //输入标识
             .click(clientSelectInput)
-            .waitForElementVisible(clientSelectOption_3, pauseTime)
-            .waitForElementVisible(clientSelectOption_4, pauseTime)
+            .waitForElementVisible(clientSelectOption_3, mock.pauseTime)
+            .waitForElementVisible(clientSelectOption_4, mock.pauseTime)
             .click(clientSelectOption_3)
             .click(clientSelectOption_4)
 
-            .waitForElementVisible(submitBtn, pauseTime)
+            .waitForElementVisible(submitBtn, mock.pauseTime)
             .click(submitBtn)
 
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/CustomerMange')
 
             .saveScreenshot('reports/create_company.png') // 截屏

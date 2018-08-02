@@ -1,8 +1,3 @@
-// const pauseTime = 5000;
-// const nameInput = "input[type=text]";
-// const pwdInput = "input[type=password]";
-// const loginBtn = "button[type=button]";
-// const homePageText = "p.admin-home-p2";
 // const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
 // const editParentPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
 //
@@ -23,24 +18,24 @@
 //         client.url(client.launchUrl).maximizeWindow()
 //         //登陆
 //             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-//             .waitForElementVisible(nameInput, pauseTime)
-//             .setValue(nameInput, mock.super_admin)//输入账号
-//             .waitForElementVisible(pwdInput, pauseTime)
-//             .setValue(pwdInput, mock.super_admin_password)//输入密码
-//             .click(loginBtn)//点击登陆
-//             .waitForElementVisible(homePageText, pauseTime)
-//             .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+//             .waitForElementVisible(mock.nameInput, mock.pauseTime)
+//             .setValue(mock.nameInput, mock.super_admin)//输入账号
+//             .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+//             .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+//             .click(mock.loginBtn)//点击登陆
+//             .waitForElementVisible(mock.homePageText, mock.pauseTime)
+//             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
 //             .assert.urlEquals(client.launchUrl)
 //
 //         //诊断标准管理
 //             .useXpath()
-//             .waitForElementVisible(planMangeNav, pauseTime)
+//             .waitForElementVisible(planMangeNav, mock.pauseTime)
 //             .click(planMangeNav)
-//             .pause(pauseTime)
+//             .pause(mock.pauseTime)
 //             .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 //
 //         //编辑
-//             .waitForElementVisible(editParentPlanBtn, pauseTime)
+//             .waitForElementVisible(editParentPlanBtn, mock.pauseTime)
 //             .click(editParentPlanBtn)
 //             .assert.urlContains('Mange/EditDiagnose')
 //
@@ -50,20 +45,20 @@
 //             .assert.urlContains('Mange/AddQuestion')
 //         //
 //         // //输入问题名称
-//         //     .waitForElementVisible(planDepartNameInput, pauseTime)
+//         //     .waitForElementVisible(planDepartNameInput, mock.pauseTime)
 //         //     .setValue(planDepartNameInput, mock.name)
 //         //
 //         //     .click(editAnswerBtnOne)//新增问题
-//         //     .pause(pauseTime)
+//         //     .pause(mock.pauseTime)
 //         //     .click(editAnswerBtnOneOption)//新增问题
-//         //     .pause(pauseTime)
+//         //     .pause(mock.pauseTime)
 //         //     .click(editAnswerBtnTwo)//新增问题
-//         //     .pause(pauseTime)
+//         //     .pause(mock.pauseTime)
 //         //     .click(editAnswerBtnTwoOption)//新增问题
 //         //
-//         //     .waitForElementVisible(submitBtn, pauseTime)
+//         //     .waitForElementVisible(submitBtn, mock.pauseTime)
 //         //     .click(submitBtn)
-//         //     .pause(pauseTime)
+//         //     .pause(mock.pauseTime)
 //         //     .assert.urlContains('Mange/EditDiagnose')
 //
 //             .saveScreenshot('reports/create_parent_plan_question.png') // 截屏

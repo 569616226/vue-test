@@ -1,9 +1,4 @@
-// 定义页面元素
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-const homePageText = "p.admin-home-p2";
+
 const OrderMangeNav = "//span[text()='订单管理']";
 const createOrder = "//span[text()='新建订单']";
 const selectCurrentPlan = "//p[text()='新建方案']";
@@ -22,48 +17,48 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
 
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)//输入用户名
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)//输入密码
-            .click(loginBtn)//登陆
-            .waitForElementVisible(homePageText, pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)//输入用户名
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+            .click(mock.loginBtn)//登陆
+            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
             //点击订单管理
             .useXpath()
             .click(OrderMangeNav)//点击订单管理
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/OrderMange')
-            .waitForElementVisible(createOrder, pauseTime)
+            .waitForElementVisible(createOrder, mock.pauseTime)
 
             //点击新建订单
             .click(createOrder)//点击新建订单
             .assert.urlEquals(client.launchUrl + 'Mange/SelectPlan')
-            .waitForElementVisible(selectCurrentPlan, pauseTime)
+            .waitForElementVisible(selectCurrentPlan, mock.pauseTime)
 
             //新建方案
             .click(selectCurrentPlan)//点击新建方案
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
 
             .assert.urlEquals(client.launchUrl + 'Mange/AddSelectPlanOrder')
             .setValue(PlanNameInput,'test_plan_name')//输入方案名称
-            .waitForElementVisible(selectOldPlanType, pauseTime)
+            .waitForElementVisible(selectOldPlanType, mock.pauseTime)
             .click(selectOldPlanType)//点击不复制
-            .waitForElementVisible(selectOldPlanContentOption_1, pauseTime)
+            .waitForElementVisible(selectOldPlanContentOption_1, mock.pauseTime)
             .click(selectOldPlanContentOption_1)
-            .waitForElementVisible(selectCompanyInput, pauseTime)
+            .waitForElementVisible(selectCompanyInput, mock.pauseTime)
 
             //选择客户
             .click(selectCompanyInput)
             .click(selectCompanyOption)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
 
             //输入订单名称
-            .waitForElementVisible(createOrderBtn, pauseTime)
+            .waitForElementVisible(createOrderBtn, mock.pauseTime)
             .click(createOrderBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/OrderMange')
             .saveScreenshot('reports/after_create_order.png') // 截屏
             .end()

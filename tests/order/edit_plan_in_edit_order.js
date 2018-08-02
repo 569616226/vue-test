@@ -1,10 +1,3 @@
-// 定义页面元素
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-
-const homePageText = "p.admin-home-p2";
 const OrderMangeNav = "//span[text()='订单管理']";
 const editOrder = "//table//tr[1]/td//span[text()='编辑']";
 const PlanInfo = "//div[text()='方案信息']";
@@ -35,7 +28,6 @@ const editAnswerBtnOneOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span"
 const editAnswerBtnTwo = "//div[@id='pane-1']//div[@class='el-dialog__wrapper'][2]//form/div[1]/div[2]/div[1]/div[2]//input[@readonly][last()]";
 const editAnswerBtnTwoOption = "//div[@x-placement]/div[1]/div[1]/ul/li[2]/span";
 const editSubmitBtn = "//div[@id='pane-1']//div[@class='el-dialog__wrapper'][2]//button/span[text()='提交']";
-
 const delQuestionBtn = "//div[@role='group']//div[@role='treeitem'][1]/div/span[2]/span[2]/i[2]";
 const cofirmDelBtn = "//body/div[last()-1]/div[1]/div[3]/button[2]/span";
 const cancelDelBtn = "//body/div[last()-1]/div[1]/div[3]/button[1]/span";
@@ -49,83 +41,83 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)
-            .click(loginBtn)
-            .pause(pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)
+            .click(mock.loginBtn)
+            .pause(mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
             //点击订单管理
             .useXpath()
             .click(OrderMangeNav)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlContains(client.launchUrl + 'Mange/OrderMange')
-            .waitForElementVisible(editOrder, pauseTime)
+            .waitForElementVisible(editOrder, mock.pauseTime)
 
             //点击编辑
             .click(editOrder)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlContains(client.launchUrl + 'Mange/EditSelectPlanOrder')
-            .waitForElementVisible(PlanInfo, pauseTime)
+            .waitForElementVisible(PlanInfo, mock.pauseTime)
 
             //点击方案信息
             .click(PlanInfo)
-            .waitForElementVisible(viewInfoBtn, pauseTime)
+            .waitForElementVisible(viewInfoBtn, mock.pauseTime)
             .click(viewInfoBtn)//点击方案预览
-            .waitForElementVisible(closePlanViewBtn, pauseTime)
+            .waitForElementVisible(closePlanViewBtn, mock.pauseTime)
             .click(closePlanViewBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.cssProperty(viewInfoDiv, 'display', 'none')
 
             .click(addQuestionBtn)//新增问题
-            .waitForElementVisible(addQuestionDiv, pauseTime)
+            .waitForElementVisible(addQuestionDiv, mock.pauseTime)
             .setValue(addQuestionInput, mock.name)
             .click(addAnswerBtnOne)//新增问题
             .click(addAnswerBtnOneOption)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .click(addAnswerBtnTwo)//新增问题
             .click(addAnswerBtnTwoOption)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
 
 
             .click(addSubmitBtn)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.cssProperty(addQuestionDiv, 'display', 'none')
 
             .click(editDepartBtn)//编辑部门
             .assert.cssClassNotPresent(editDepartDiv, 'display')
             .clearValue(editDepartInput)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .setValue(editDepartInput, mock.name)
             /*.assert.value(editDepartInput, 'display')*/
-            .waitForElementVisible(editDepartSubmitBtn, pauseTime)
+            .waitForElementVisible(editDepartSubmitBtn, mock.pauseTime)
             .click(editDepartSubmitBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.cssProperty(editDepartDiv, 'display', 'none')
 
             .click(editQuestionBtn)//编辑问题
             .setValue(editQuestionInput, mock.name)
             .click(editAnswerBtnOne)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .click(editAnswerBtnOneOption)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .click(editAnswerBtnTwo)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .click(editAnswerBtnTwoOption)//新增问题
-            .pause(pauseTime)
-            .waitForElementVisible(editSubmitBtn, pauseTime)
+            .pause(mock.pauseTime)
+            .waitForElementVisible(editSubmitBtn, mock.pauseTime)
             .click(editSubmitBtn)//新增问题
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.cssProperty(editQuestionDiv, 'display', 'none')
 
-            .waitForElementVisible(delQuestionBtn, pauseTime)
+            .waitForElementVisible(delQuestionBtn, mock.pauseTime)
             .click(delQuestionBtn)//删除问题
             .click(cofirmDelBtn)//确定删除
 
-            .waitForElementVisible(delDepartBtn, pauseTime)
+            .waitForElementVisible(delDepartBtn, mock.pauseTime)
             .click(delDepartBtn)//删除部门
             .click(cancelDelBtn)//取消删除
 

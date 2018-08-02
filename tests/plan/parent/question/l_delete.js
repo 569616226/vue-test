@@ -1,9 +1,3 @@
-// 定义页面元素
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-const homePageText = "p.admin-home-p2";
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
 const editParentPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/td[4]//span[text()='编辑']";
 const delPlanBtn = "//table/tbody/tr[1]/td[3]//span[2]";
@@ -17,35 +11,35 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
         //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)//输入密码
-            .click(loginBtn)//点击登陆
-            .waitForElementVisible(homePageText, pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)//输入账号
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+            .click(mock.loginBtn)//点击登陆
+            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
         //诊断标准管理
             .useXpath()
-            .waitForElementVisible(planMangeNav, pauseTime)
+            .waitForElementVisible(planMangeNav, mock.pauseTime)
             .click(planMangeNav)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 
         //编辑
-            .waitForElementVisible(editParentPlanBtn, pauseTime)
+            .waitForElementVisible(editParentPlanBtn, mock.pauseTime)
             .click(editParentPlanBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlContains('Mange/EditDiagnose')
 
         //删除
-            .waitForElementVisible(delPlanBtn, pauseTime)
+            .waitForElementVisible(delPlanBtn, mock.pauseTime)
             .assert.containsText(delPlanBtn, "删除")
             .click(delPlanBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .click(confirmBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
 
             .saveScreenshot('reports/del_parent_plan_question.png') // 截屏
             .end()

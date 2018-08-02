@@ -1,8 +1,3 @@
-const pauseTime = 5000;
-const nameInput = "input[type=text]";
-const pwdInput = "input[type=password]";
-const loginBtn = "button[type=button]";
-const homePageText = "p.admin-home-p2";
 const permissionMangeNav = "//div[@class='left']//span[text()='权限管理']";
 const createPermissionBtn = "//button/span[text()='新建权限']";
 const permissionRouteInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
@@ -19,42 +14,42 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(nameInput, pauseTime)
-            .setValue(nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(pwdInput, pauseTime)
-            .setValue(pwdInput, mock.super_admin_password)//输入密码
-            .click(loginBtn)//点击登陆
-            .waitForElementVisible(homePageText, pauseTime)
-            .assert.containsText(homePageText, "欢迎使用，优企康管理平台")
+            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, mock.super_admin)//输入账号
+            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+            .click(mock.loginBtn)//点击登陆
+            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
             //权限管理
             .useXpath()
-            .waitForElementVisible(permissionMangeNav, pauseTime)
+            .waitForElementVisible(permissionMangeNav, mock.pauseTime)
             .click(permissionMangeNav)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'SetUp/PermissionsMange')
 
             //新建权限
-            .waitForElementVisible(createPermissionBtn, pauseTime)
+            .waitForElementVisible(createPermissionBtn, mock.pauseTime)
             .click(createPermissionBtn)
             .assert.urlEquals(client.launchUrl + 'SetUp/AddPermissions')
 
             //输入权限名
-            .waitForElementVisible(permissionRouteInput, pauseTime)
+            .waitForElementVisible(permissionRouteInput, mock.pauseTime)
             .setValue(permissionRouteInput,mock.name)
 
             //输入标识
-            .waitForElementVisible(permissionNameInput, pauseTime)
+            .waitForElementVisible(permissionNameInput, mock.pauseTime)
             .setValue(permissionNameInput,mock.cname)
 
             //输入标识
-            .waitForElementVisible(permissionDisPlayNameInput, pauseTime)
+            .waitForElementVisible(permissionDisPlayNameInput, mock.pauseTime)
             .setValue(permissionDisPlayNameInput,mock.cname)
 
-            .waitForElementVisible(submitBtn, pauseTime)
+            .waitForElementVisible(submitBtn, mock.pauseTime)
             .click(submitBtn)
-            .pause(pauseTime)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'SetUp/PermissionsMange')
             
             .saveScreenshot('reports/create_permission.png') // 截屏

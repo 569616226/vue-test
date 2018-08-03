@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AdminPort.admin.create"
+    errors="0" failures="0" hostname="" id="" package="admin" skipped="0"
+    tests="1" time="69.91" timestamp="Fri, 03 Aug 2018 02:36:22 GMT">
+  
+    <testcase name="get create_admin in youqikang" classname="AdminPort.admin.create" time="69.91" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

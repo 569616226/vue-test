@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AdminPort.company.find"
+    errors="1" failures="0" hostname="" id="" package="company" skipped="0"
+    tests="1" time="0.02300" timestamp="Fri, 03 Aug 2018 07:29:20 GMT">
+  
+    <testcase name="get company in youqikang" classname="AdminPort.company.find" time="0.02300" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Admin Port / Company\find / get company in youqikang]:
+
+  ReferenceError: clientNameLink is not defined
+    at Object.get company in youqikang (D:\vue_test\tests\AdminPort\company\find.js:43:20)
+    at Module.call (D:\vue_test\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\vue_test\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\vue_test\node_modules\q\q.js:834:54)
+    at D:\vue_test\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (D:\vue_test\node_modules\q\q.js:796:13)
+    at D:\vue_test\node_modules\q\q.js:556:49
+    at runSingle (D:\vue_test\node_modules\q\q.js:137:13)
+    at flush (D:\vue_test\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

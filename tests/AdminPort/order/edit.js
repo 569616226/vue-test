@@ -3,7 +3,7 @@ const editOrder = "//table//tr[1]/td//span[text()='编辑']";
 const selectCurrentPlanInput = "//div[@class='right']//form/div[1]//input[1]";
 const selectCompanyInput = "//div[@class='right']//form/div[2]//input[1]";
 const selectCompanyOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 const editOrderBtn = "//div[@class='right']//form//button/span[text()='提交']";
 
 module.exports = {

@@ -3,7 +3,7 @@ const editPermissionBtn = "//table/tbody/tr[1]/td[4]//span[text()='编辑']";
 const permissionNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const permissionDisPlayNameInput = "//div[@class='right']//form/div[3]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'get edit_permission in youqikang': function (client) {

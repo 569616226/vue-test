@@ -1,7 +1,7 @@
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
 const delPlanBtn = "//div[@class='right']/div[1]/div[3]//table[1]/tbody/tr[1]/td[4]//span[2]";
 const confirmBtn = "//body/div[last()-1]/div[1]/div[3]/button[2]/span";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get del_plan in youqikang': function (client) {

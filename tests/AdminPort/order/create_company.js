@@ -8,7 +8,7 @@ const clientSelectInput = "//div[@class='el-dialog__wrapper'][1]//form/div[2]/di
 const clientSelectOption_1 = "//div[@x-placement]//ul/li[2]/span";
 const clientSelectOption_2 = "//div[@x-placement]//ul/li[1]/span";
 const createCompanyInCreateOrderBtn = "//div[@class='right']/div[1]/div[3]/div[1]/div[3]//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'create company in youqikang': function (client) {

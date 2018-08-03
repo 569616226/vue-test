@@ -9,7 +9,7 @@
 // const editAnswerBtnTwo = "//div[@class='right']//form/div[2]//input[@readonly][last()]";
 // const editAnswerBtnTwoOption = "//div[@x-placement]/div[1]/div[1]/ul/li[2]/span";
 // const submitBtn = "//button/span[text()='提交']";
-// const mock = require('../../../../mock/mock.js');
+// const mock = require('../../../../../mock/mock.js');
 //
 // module.exports = {
 //     'get create_parent_plan_question in youqikang': function (client) {

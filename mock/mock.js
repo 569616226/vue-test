@@ -32,5 +32,15 @@ module.exports = {
     loginBtn: "button[type=button]",
     homePageText: "p.admin-home-p2",
 
+    backIcon: "//i[@class='iconfont icon-arrow-left cursor']",
+
+    backBtn: "//button/span[text()='返回']",
+
+    h_closeIcon: "//div[@class='header']//i[@class='el-dialog__close el-icon el-icon-close']",
+    r_closeIcon: "//div[@class='right']//i[@class='el-dialog__close el-icon el-icon-close']",
+
+    e_closeIcon: "//body/div[last()-1]//i[@class='el-message-box__close el-icon-close']",
+    cancelBtn: "//body/div[last()-1]/div[1]/div[3]/button[1]/span",
+    confirmBtn: "//body/div[last()-1]/div[1]/div[3]/button[2]/span"
 
 };

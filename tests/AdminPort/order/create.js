@@ -7,7 +7,7 @@ const selectPlanOption = "//div[@x-placement]//ul/li[1]/span";
 const selectCompanyInput = "//div[@class='right']//form/div[2]//input[1]";
 const selectCompanyOption = "//div[@x-placement]//ul/li[2]/span";
 const createOrderBtn = "//div[@class='right']//form//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'create order in youqikang': function (client) {

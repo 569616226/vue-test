@@ -1,7 +1,7 @@
 const wechatMangeNav = "//div[@class='left']//span[text()='公众号管理']";
 const contentInput = "//div[@contenteditable]";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 const content = '优企康，让我们的企业更健康！我们是一个覆盖过千家进出口企业的风险管理平台，专注于为企业提供从订单，生产管理，到物流，关务，财务等环节的风险管理一体化解决方案。';
 
 module.exports = {

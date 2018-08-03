@@ -3,7 +3,7 @@ const createOrderBtn = "//p[text()='新建订单']";
 const createPlanBtn = "//p[text()='新建诊断方案']";
 const createCompanyBtn = "//p[text()='新建客户']";
 const createClientBtn = "//p[text()='新建客户联系人']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get home in youqikang': function (client) {

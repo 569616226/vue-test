@@ -1,183 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/tests/login/logout.js" line="24" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/tests/AdminPort/login/logout.js" line="24" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ee11cca-d23f-4e68-9037-351e354ec8f8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/LICENSE.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/find-root/test/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/path/path.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/support/isBuffer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/support/isBufferBrowser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/create_parent_plan_depart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/create_parent_plan_question.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/create_plan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/create_plan_depart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/create_plan_question.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/del_plan_depart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/del_plan_question.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/edit_plan_depart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/edit_plan_question.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/edit_role.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/create.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/depart/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/depart/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/depart/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/question/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/question/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reports/plan/question/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/login/edit_password.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/login/login_frozen.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/login/login_name_error.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/login/logout.js" />
+    <list default="true" id="0ee11cca-d23f-4e68-9037-351e354ec8f8" name="Default" comment="完善账号管理、客户管理、客户联系人管理测试">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mock/mock.js" afterPath="$PROJECT_DIR$/mock/mock.js" />
-      <change beforePath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_find.xml" afterPath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_frozen.xml" afterPath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_frozen.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/admin/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/after_create_order.png" afterPath="$PROJECT_DIR$/reports/after_create_order.png" />
-      <change beforePath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_find.xml" afterPath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_frozen.xml" afterPath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_frozen.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/client/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_find.xml" afterPath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/company/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
       <change beforePath="$PROJECT_DIR$/reports/create_admin.png" afterPath="$PROJECT_DIR$/reports/create_admin.png" />
-      <change beforePath="$PROJECT_DIR$/reports/create_client_in_create_order.png" afterPath="$PROJECT_DIR$/reports/create_client_in_create_order.png" />
       <change beforePath="$PROJECT_DIR$/reports/create_company.png" afterPath="$PROJECT_DIR$/reports/create_company.png" />
-      <change beforePath="$PROJECT_DIR$/reports/create_company_in_create_order.png" afterPath="$PROJECT_DIR$/reports/create_company_in_create_order.png" />
-      <change beforePath="$PROJECT_DIR$/reports/create_permission.png" afterPath="$PROJECT_DIR$/reports/create_permission.png" />
-      <change beforePath="$PROJECT_DIR$/reports/create_role.png" afterPath="$PROJECT_DIR$/reports/create_role.png" />
       <change beforePath="$PROJECT_DIR$/reports/del_admin.png" afterPath="$PROJECT_DIR$/reports/del_admin.png" />
       <change beforePath="$PROJECT_DIR$/reports/del_client.png" afterPath="$PROJECT_DIR$/reports/del_client.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_company.png" afterPath="$PROJECT_DIR$/reports/del_company.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_parent_plan_depart.png" afterPath="$PROJECT_DIR$/reports/del_parent_plan_depart.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_parent_plan_question.png" afterPath="$PROJECT_DIR$/reports/del_parent_plan_question.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_permission.png" afterPath="$PROJECT_DIR$/reports/del_permission.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_plan.png" afterPath="$PROJECT_DIR$/reports/del_plan.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_role.png" afterPath="$PROJECT_DIR$/reports/del_role.png" />
-      <change beforePath="$PROJECT_DIR$/reports/edit_parent_plan_depart.png" afterPath="$PROJECT_DIR$/reports/edit_parent_plan_depart.png" />
-      <change beforePath="$PROJECT_DIR$/reports/edit_parent_plan_question.png" afterPath="$PROJECT_DIR$/reports/edit_parent_plan_question.png" />
-      <change beforePath="$PROJECT_DIR$/reports/edit_permission.png" afterPath="$PROJECT_DIR$/reports/edit_permission.png" />
       <change beforePath="$PROJECT_DIR$/reports/find_admin.png" afterPath="$PROJECT_DIR$/reports/find_admin.png" />
       <change beforePath="$PROJECT_DIR$/reports/find_client.png" afterPath="$PROJECT_DIR$/reports/find_client.png" />
       <change beforePath="$PROJECT_DIR$/reports/find_company.png" afterPath="$PROJECT_DIR$/reports/find_company.png" />
-      <change beforePath="$PROJECT_DIR$/reports/find_permission.png" afterPath="$PROJECT_DIR$/reports/find_permission.png" />
-      <change beforePath="$PROJECT_DIR$/reports/find_role.png" afterPath="$PROJECT_DIR$/reports/find_role.png" />
       <change beforePath="$PROJECT_DIR$/reports/frozen_admin.png" afterPath="$PROJECT_DIR$/reports/frozen_admin.png" />
       <change beforePath="$PROJECT_DIR$/reports/frozen_client.png" afterPath="$PROJECT_DIR$/reports/frozen_client.png" />
-      <change beforePath="$PROJECT_DIR$/reports/home/CHROME_68.0.3423.2_Windows NT_index.xml" afterPath="$PROJECT_DIR$/reports/home/CHROME_68.0.3423.2_Windows NT_index.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/homes.png" afterPath="$PROJECT_DIR$/reports/homes.png" />
-      <change beforePath="$PROJECT_DIR$/reports/login/CHROME_68.0.3423.2_Windows NT_login.xml" afterPath="$PROJECT_DIR$/reports/login/CHROME_68.0.3423.2_Windows NT_login.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/login_success.png" afterPath="$PROJECT_DIR$/reports/login_success.png" />
-      <change beforePath="$PROJECT_DIR$/reports/logs.png" afterPath="$PROJECT_DIR$/reports/logs.png" />
-      <change beforePath="$PROJECT_DIR$/reports/logs/CHROME_68.0.3423.2_Windows NT_lists.xml" afterPath="$PROJECT_DIR$/reports/logs/CHROME_68.0.3423.2_Windows NT_lists.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order.png" afterPath="$PROJECT_DIR$/reports/order.png" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_client.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_client.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_company.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_company.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_no_copy_from_old_plan.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_no_copy_from_old_plan.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_with_copy_from_old_plan.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_create_with_copy_from_old_plan.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_edit_plan_in_edit_order.xml" afterPath="$PROJECT_DIR$/reports/order/CHROME_68.0.3423.2_Windows NT_edit_plan_in_edit_order.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_find.xml" afterPath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/permission/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/CHROME_68.0.3423.2_Windows NT_find.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/depart/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/depart/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/depart/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/depart/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/depart/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/depart/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/question/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/question/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/question/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/question/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plan/parent/question/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/plan/parent/question/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/plans.png" afterPath="$PROJECT_DIR$/reports/plans.png" />
-      <change beforePath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_create.xml" afterPath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_create.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_edit.xml" afterPath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_find.xml" afterPath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_find.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_l_delete.xml" afterPath="$PROJECT_DIR$/reports/role/CHROME_68.0.3423.2_Windows NT_l_delete.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/wechat.png" afterPath="$PROJECT_DIR$/reports/wechat.png" />
-      <change beforePath="$PROJECT_DIR$/reports/wechat/CHROME_68.0.3423.2_Windows NT_index.xml" afterPath="$PROJECT_DIR$/reports/wechat/CHROME_68.0.3423.2_Windows NT_index.xml" />
       <change beforePath="$PROJECT_DIR$/selenium-debug.log" afterPath="$PROJECT_DIR$/selenium-debug.log" />
-      <change beforePath="$PROJECT_DIR$/tests/admin/create.js" afterPath="$PROJECT_DIR$/tests/admin/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/admin/edit.js" afterPath="$PROJECT_DIR$/tests/admin/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/admin/find.js" afterPath="$PROJECT_DIR$/tests/admin/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/admin/frozen.js" afterPath="$PROJECT_DIR$/tests/admin/frozen.js" />
-      <change beforePath="$PROJECT_DIR$/tests/admin/l_delete.js" afterPath="$PROJECT_DIR$/tests/admin/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/client/create.js" afterPath="$PROJECT_DIR$/tests/client/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/client/edit.js" afterPath="$PROJECT_DIR$/tests/client/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/client/find.js" afterPath="$PROJECT_DIR$/tests/client/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/client/frozen.js" afterPath="$PROJECT_DIR$/tests/client/frozen.js" />
-      <change beforePath="$PROJECT_DIR$/tests/client/l_delete.js" afterPath="$PROJECT_DIR$/tests/client/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/company/create.js" afterPath="$PROJECT_DIR$/tests/company/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/company/edit.js" afterPath="$PROJECT_DIR$/tests/company/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/company/find.js" afterPath="$PROJECT_DIR$/tests/company/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/company/l_delete.js" afterPath="$PROJECT_DIR$/tests/company/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/home/index.js" afterPath="$PROJECT_DIR$/tests/home/index.js" />
-      <change beforePath="$PROJECT_DIR$/tests/login/login.js" afterPath="$PROJECT_DIR$/tests/login/login_success.js" />
-      <change beforePath="$PROJECT_DIR$/tests/logs/lists.js" afterPath="$PROJECT_DIR$/tests/logs/lists.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/create.js" afterPath="$PROJECT_DIR$/tests/order/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/create_client.js" afterPath="$PROJECT_DIR$/tests/order/create_client.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/create_company.js" afterPath="$PROJECT_DIR$/tests/order/create_company.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/create_no_copy_from_old_plan.js" afterPath="$PROJECT_DIR$/tests/order/create_no_copy_from_old_plan.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/create_with_copy_from_old_plan.js" afterPath="$PROJECT_DIR$/tests/order/create_with_copy_from_old_plan.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/edit.js" afterPath="$PROJECT_DIR$/tests/order/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/edit_plan_in_edit_order.js" afterPath="$PROJECT_DIR$/tests/order/edit_plan_in_edit_order.js" />
-      <change beforePath="$PROJECT_DIR$/tests/order/find.js" afterPath="$PROJECT_DIR$/tests/order/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/permission/create.js" afterPath="$PROJECT_DIR$/tests/permission/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/permission/edit.js" afterPath="$PROJECT_DIR$/tests/permission/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/permission/find.js" afterPath="$PROJECT_DIR$/tests/permission/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/permission/l_delete.js" afterPath="$PROJECT_DIR$/tests/permission/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/create.js" afterPath="$PROJECT_DIR$/tests/plan/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/depart/create.js" afterPath="$PROJECT_DIR$/tests/plan/depart/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/depart/edit.js" afterPath="$PROJECT_DIR$/tests/plan/depart/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/depart/l_delete.js" afterPath="$PROJECT_DIR$/tests/plan/depart/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/find.js" afterPath="$PROJECT_DIR$/tests/plan/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/l_delete.js" afterPath="$PROJECT_DIR$/tests/plan/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/depart/create.js" afterPath="$PROJECT_DIR$/tests/plan/parent/depart/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/depart/edit.js" afterPath="$PROJECT_DIR$/tests/plan/parent/depart/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/depart/l_delete.js" afterPath="$PROJECT_DIR$/tests/plan/parent/depart/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/find.js" afterPath="$PROJECT_DIR$/tests/plan/parent/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/question/create.js" afterPath="$PROJECT_DIR$/tests/plan/parent/question/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/question/edit.js" afterPath="$PROJECT_DIR$/tests/plan/parent/question/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/parent/question/l_delete.js" afterPath="$PROJECT_DIR$/tests/plan/parent/question/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/question/create.js" afterPath="$PROJECT_DIR$/tests/plan/question/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/question/edit.js" afterPath="$PROJECT_DIR$/tests/plan/question/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/plan/question/l_delete.js" afterPath="$PROJECT_DIR$/tests/plan/question/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/role/create.js" afterPath="$PROJECT_DIR$/tests/role/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/role/edit.js" afterPath="$PROJECT_DIR$/tests/role/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/role/find.js" afterPath="$PROJECT_DIR$/tests/role/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/role/l_delete.js" afterPath="$PROJECT_DIR$/tests/role/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/wechat/index.js" afterPath="$PROJECT_DIR$/tests/wechat/index.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/frozen.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/frozen.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/frozen.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/frozen.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/home/index.js" afterPath="$PROJECT_DIR$/tests/AdminPort/home/index.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/edit_password.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/edit_password.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/login_frozen.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/login_frozen.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/login_name_error.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/login_name_error.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/login_success.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/login_success.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/logout.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/logout.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/logs/lists.js" afterPath="$PROJECT_DIR$/tests/AdminPort/logs/lists.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_client.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_client.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_company.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_company.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_no_copy_from_old_plan.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_no_copy_from_old_plan.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_with_copy_from_old_plan.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_with_copy_from_old_plan.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/edit_plan_in_edit_order.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/edit_plan_in_edit_order.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/depart/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/depart/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/depart/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/depart/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/depart/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/depart/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/question/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/question/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/question/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/question/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/question/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/question/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/create.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/edit.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/find.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/l_delete.js" />
+      <change beforePath="$PROJECT_DIR$/tests/AdminPort/wechat/index.js" afterPath="$PROJECT_DIR$/tests/AdminPort/wechat/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -188,12 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="frozen.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/admin/frozen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-              <folding />
+      <file leaf-file-name="selenium-debug.log" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/selenium-debug.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
             </state>
           </provider>
         </entry>
@@ -209,13 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>elementIdClear()</find>
-      <find>.clearValue()</find>
-      <find>clearValue</find>
-      <find>elementIdValue</find>
-      <find>planName</find>
-      <find>部门管理</find>
-      <find>Aduit</find>
       <find>moveto</find>
       <find>waitForElementNotVisible</find>
       <find>.waitForElementVisible(nameInput, pauseTime)</find>
@@ -239,10 +126,15 @@
       <find>roleNameInput</find>
       <find>rolemock.nameInput</find>
       <find>roleDisplaymock.nameInput</find>
+      <find>../mock</find>
+      <find>mock = require('../../../mock/mock.js');</find>
+      <find>require('../../../mock/mock.js')</find>
+      <find>require('/mock/mock.js');</find>
+      <find>//table/tbody/tr[1]/td[5]/div[1]/div[1]//span[3]</find>
+      <find>closeIcon</find>
+      <find>company</find>
     </findStrings>
     <replaceStrings>
-      <replace>pauseTime</replace>
-      <replace>const pauseTime = 5000;</replace>
       <replace>@x-placement</replace>
       <replace>.setValue(pwdInput, 'admin123456')</replace>
       <replace>mock.super_admin</replace>
@@ -269,6 +161,10 @@
       <replace />
       <replace>roleNameInput</replace>
       <replace>roleDisplayNameInput</replace>
+      <replace>../../mock</replace>
+      <replace>mock = require('../../../mock/mock.js');</replace>
+      <replace>require('/mock/mock.js')</replace>
+      <replace>require('../../../mock/mock.js');</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\vue_test\tests\login</dir>
@@ -287,22 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/login/login_success.js" />
-        <option value="$PROJECT_DIR$/tests/login/logout.js" />
-        <option value="$PROJECT_DIR$/tests/login/login_frozen.js" />
-        <option value="$PROJECT_DIR$/tests/login/login_name_error.js" />
-        <option value="$PROJECT_DIR$/mock/mock.js" />
-        <option value="$PROJECT_DIR$/tests/login/edit_password.js" />
-        <option value="$PROJECT_DIR$/tests/admin/find.js" />
-        <option value="$PROJECT_DIR$/tests/client/create.js" />
-        <option value="$PROJECT_DIR$/tests/client/find.js" />
-        <option value="$PROJECT_DIR$/tests/client/frozen.js" />
-        <option value="$PROJECT_DIR$/tests/client/l_delete.js" />
-        <option value="$PROJECT_DIR$/tests/client/edit.js" />
-        <option value="$PROJECT_DIR$/tests/order/create_client.js" />
-        <option value="$PROJECT_DIR$/tests/order/create_with_copy_from_old_plan.js" />
-        <option value="$PROJECT_DIR$/tests/order/edit.js" />
-        <option value="$PROJECT_DIR$/tests/order/edit_plan_in_edit_order.js" />
         <option value="$PROJECT_DIR$/tests/order/find.js" />
         <option value="$PROJECT_DIR$/tests/permission/create.js" />
         <option value="$PROJECT_DIR$/tests/permission/edit.js" />
@@ -338,6 +218,22 @@
         <option value="$PROJECT_DIR$/tests/admin/edit.js" />
         <option value="$PROJECT_DIR$/tests/admin/l_delete.js" />
         <option value="$PROJECT_DIR$/tests/admin/frozen.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/admin/create.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/admin/find.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/admin/frozen.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/order/create_client.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/client/create.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/client/find.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/client/frozen.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/company/create.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/client/l_delete.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/admin/l_delete.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/company/edit.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/client/edit.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/admin/edit.js" />
+        <option value="$PROJECT_DIR$/mock/mock.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/company/l_delete.js" />
+        <option value="$PROJECT_DIR$/tests/AdminPort/company/find.js" />
       </list>
     </option>
   </component>
@@ -396,104 +292,14 @@
               <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminPort" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminPort" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="company" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="login" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="logs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="order" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="permission" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="depart" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="parent" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="parent" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="depart" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="parent" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="question" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="question" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="role" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wechat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -503,7 +309,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="true        // 是否在文件的最后插入一个空行" />
     <property name="js.last.introduce.type" value="CONST" />
@@ -517,6 +323,7 @@
       <recent name="D:\vue_test\tests\plan\parent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vue_test\tests\AdminPort" />
       <recent name="D:\vue_test\tests\plan\parent\depart" />
       <recent name="D:\vue_test" />
       <recent name="D:\vue_test\tests\order" />
@@ -534,6 +341,22 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -558,7 +381,8 @@
       <workItem from="1532928179802" duration="14106000" />
       <workItem from="1532995797304" duration="10741000" />
       <workItem from="1533028819117" duration="768000" />
-      <workItem from="1533170363838" duration="16076000" />
+      <workItem from="1533170363838" duration="16495000" />
+      <workItem from="1533254554607" duration="19754000" />
     </task>
     <task id="LOCAL-00001" summary="增加 开发分支 develop">
       <created>1532912304245</created>
@@ -602,11 +426,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533013412578</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加退出登陆和修改密码测试。优化代码">
+      <created>1533201842782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533201842782</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加退出登陆和修改密码测试。优化代码">
+      <created>1533201949779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533201949779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143316000" />
+    <option name="totallyTimeSpent" value="163489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,10 +462,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22921109" sideWeight="0.50442475" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23187633" sideWeight="0.51155114" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22921109" sideWeight="0.49557522" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187633" sideWeight="0.48844886" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -655,54 +493,15 @@
     <MESSAGE value="诊断管理标准库管理" />
     <MESSAGE value="完善后增加测试模拟数据" />
     <MESSAGE value="诊断管理标准库问题创建，新增问题无法测试点击。其他测试主流程全部完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="诊断管理标准库问题创建，新增问题无法测试点击。其他测试主流程全部完成" />
+    <MESSAGE value="增加退出登陆和修改密码测试。优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加退出登陆和修改密码测试。优化代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/login/logout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/login/edit_password.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/client/find.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/create_client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/create_company.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/create_no_copy_from_old_plan.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/order/create_no_copy_from_old_plan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -710,7 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/create_with_copy_from_old_plan.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/order/create_with_copy_from_old_plan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -718,7 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/order/edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -726,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/edit_plan_in_edit_order.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/order/edit_plan_in_edit_order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -734,7 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/order/find.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/order/find.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -742,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/permission/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/permission/create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -750,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/permission/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/permission/edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
@@ -758,7 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/permission/find.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/permission/find.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -766,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/permission/l_delete.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/permission/l_delete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -774,7 +573,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/depart/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/depart/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/depart/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/depart/l_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/l_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/question/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/question/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/question/l_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/parent/find.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -782,7 +644,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/depart/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/question/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/question/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/question/l_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -790,7 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/depart/l_delete.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/find.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -798,7 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/depart/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/plan/l_delete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -806,111 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/depart/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/depart/l_delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/question/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/question/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/question/l_delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/parent/find.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/question/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/question/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/question/l_delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/find.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/plan/l_delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock/mock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/role/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/role/create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
@@ -918,7 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/role/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/role/edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
@@ -926,7 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/role/find.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/role/find.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -934,7 +713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/role/l_delete.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/role/l_delete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -942,7 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/wechat/index.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/wechat/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -950,7 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/logs/lists.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/logs/lists.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -958,7 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/home/index.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -966,107 +745,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/company/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/login/login_frozen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        <state relative-caret-position="420">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/company/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/login/edit_password.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        <state relative-caret-position="14">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/company/find.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/admin/find.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="560">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/company/l_delete.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/admin/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="51" column="68" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="51" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/client/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/order/create_client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        <state relative-caret-position="686">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/client/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/client/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="483">
+          <caret line="83" column="78" lean-forward="true" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/client/frozen.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/admin/frozen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/client/l_delete.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/client/frozen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="392">
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/admin/create.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/company/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-259">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/admin/edit.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/client/l_delete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="651">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="46" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/admin/find.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/admin/l_delete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        <state relative-caret-position="644">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/admin/l_delete.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/client/find.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/admin/frozen.js">
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/company/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        <state relative-caret-position="483">
+          <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/client/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/admin/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/company/find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AdminPort/company/l_delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="56" column="2" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>

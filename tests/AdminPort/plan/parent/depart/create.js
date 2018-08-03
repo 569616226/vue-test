@@ -5,7 +5,7 @@ const creatPlanDepartBtn = "//button/span[text()='新建部门']";
 const planDepartNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//button/span[text()='提交']";
 const imageErrorDiv = "//div[@class='el-form-item__error']";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../../../mock/mock.js');
 
 module.exports = {
     'get create_parent_plan_depart in youqikang': function (client) {

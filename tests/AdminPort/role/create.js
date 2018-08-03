@@ -3,7 +3,7 @@ const createRoleBtn = "//button/span[text()='新建角色']";
 const roleNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const rolenameInput = "//div[@class='right']//form/div[2]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get create_role in youqikang': function (client) {

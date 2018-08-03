@@ -4,7 +4,7 @@ const PlanNameInput = "//div[@class='right']//form/div[1]//input[1]";
 const selectOldPlanType = "//div[@class='right']//form//div[@role='radiogroup']/label[@role='radio'][2]";
 const selectOldPlanContentOption_1 = "//span[@class='el-checkbox__inner'][1]";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'get create_plan in youqikang': function (client) {

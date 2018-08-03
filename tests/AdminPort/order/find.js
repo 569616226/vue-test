@@ -1,7 +1,7 @@
 const OrderMangeNav = "//span[text()='订单管理']";
 const orderNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
 const orderDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='项目详情']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'order find_order in youqikang': function (client) {

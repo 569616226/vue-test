@@ -1,7 +1,7 @@
 const planMangeNav = "//div[@class='left']//span[text()='诊断标准管理']";
 const planNameLink = "//table[1]/tbody/tr[1]/td[1]/div[1]/div[1]/b";
 const planDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='方案详情']";
-const mock = require('../../../mock/mock.js');
+const mock = require('../../../../mock/mock.js');
 
 module.exports = {
 'get find_plan in youqikang': function (client) {

@@ -2,7 +2,7 @@
 const permissionMangeNav = "//div[@class='left']//span[text()='权限管理']";
 const permissionNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
 const permissionDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='权限详情']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get permission in youqikang': function (client) {

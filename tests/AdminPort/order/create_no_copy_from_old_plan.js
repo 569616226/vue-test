@@ -7,7 +7,7 @@ const selectOldPlanType = "//div[@class='right']//form//div[@role='radiogroup']/
 const selectOldPlanContentOption_1 = "//span[@class='el-checkbox__inner'][1]";
 const selectCompanyInput = "//div[@class='right']//form/div[2]//input[1]";
 const selectCompanyOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 const createOrderBtn = "//div[@class='right']//form//button/span[text()='提交']";
 
 module.exports = {

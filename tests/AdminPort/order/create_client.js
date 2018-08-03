@@ -10,7 +10,7 @@ const companySelectInput = "//body/div[@class='el-dialog__wrapper']//form//input
 const companySelectOption_1 = "//div[@x-placement]//ul/li[1]/span";
 const companySelectOption_2 = "//div[@x-placement]//ul/li[2]/span";
 const createClientInCreateOrderBtn = "//body/div[@class='el-dialog__wrapper']//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'create client in youqikang': function (client) {
@@ -49,18 +49,26 @@ module.exports = {
             //新建联系人
             .waitForElementVisible(createClientLink, mock.pauseTime)
             .click(createClientLink)
+
             .waitForElementVisible(clientNameInput, mock.pauseTime)
+
             .setValue(clientNameInput,mock.name)
             .setValue(clientPhoneInput,mock.tel)
+
             .click(companySelectInput)
+
             .waitForElementVisible(companySelectOption_1, mock.pauseTime)
             .click(companySelectOption_1)
             .click(companySelectOption_2)
+
             .click(clientPhoneInput)
 
             .waitForElementVisible(createClientInCreateOrderBtn, mock.pauseTime)
+
             .click(createClientInCreateOrderBtn)
-            .waitForElementVisible(createClientLink, mock.pauseTime)
+
+            // .waitForElementVisible(createClientLink, mock.pauseTime)
+
             .saveScreenshot('reports/create_client_in_create_order.png') // 截屏
             .end()
     }

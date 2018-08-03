@@ -4,7 +4,7 @@ const editRoleBtn = "//table/tbody/tr[1]/td[4]//span[text()='编辑']";
 const roleNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const roleDisplayNameInput = "//div[@class='right']//form/div[2]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'get edit_role in youqikang': function (client) {

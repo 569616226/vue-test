@@ -1,6 +1,6 @@
 const userInfoDiv = "span.el-dropdown-link.el-dropdown-selfdefine";
 const logoutBtn = "//li[text()='退出登录']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'logout in youqikang': function (client) {

@@ -1,7 +1,7 @@
 const roleMangeNav = "//div[@class='left']//span[text()='角色管理']";
 const roleNameLink = "//table/tbody/tr[1]/td[1]/div[1]/div[1]/b";
 const roleDetailDiv = "//div[@class='right']//div[@class='el-dialog__wrapper previewcol']/div[1]/div[1]/span[text()='角色详情']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get role in youqikang': function (client) {

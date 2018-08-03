@@ -32,7 +32,7 @@ const delQuestionBtn = "//div[@role='group']//div[@role='treeitem'][1]/div/span[
 const cofirmDelBtn = "//body/div[last()-1]/div[1]/div[3]/button[2]/span";
 const cancelDelBtn = "//body/div[last()-1]/div[1]/div[3]/button[1]/span";
 const delDepartBtn = "//div[@role='treeitem']/div/span[2]/span[2]/i[last()]";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'edit plan in edit order in youqikang': function (client) {

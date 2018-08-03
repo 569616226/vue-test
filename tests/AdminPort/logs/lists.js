@@ -1,5 +1,5 @@
 const logMangeNav = "//div[@class='left']//span[text()='系统操作日志']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get logs in youqikang': function (client) {

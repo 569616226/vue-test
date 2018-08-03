@@ -1,5 +1,5 @@
 // 定义页面元素
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 

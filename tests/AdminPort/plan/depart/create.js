@@ -5,7 +5,7 @@ const creatPlanDepartBtn = "//button/span[text()='新建部门']";
 const planDepartNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const imageErrorDiv = "//div[@class='el-form-item__error']";
 const submitBtn = "//button/span[text()='提交']";
-const mock = require('../../../mock/mock.js');
+const mock = require('../../../../mock/mock.js');
 
 
 module.exports = {

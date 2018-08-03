@@ -7,7 +7,7 @@ const editAnswerBtnOneOption = "//div[@x-placement]/div[1]/div[1]/ul/li[1]/span"
 const editAnswerBtnTwo = "//div[@class='right']//form/div[2]//input[@readonly][last()]";
 const editAnswerBtnTwoOption = "//div[@x-placement]/div[1]/div[1]/ul/li[2]/span";
 const submitBtn = "//div[@class='right']//form/div[3]/div[1]/button[1]/span[text()='提交']";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../../../mock/mock.js');
 
 module.exports = {
     'get edit_parent_plan_question in youqikang': function (client) {

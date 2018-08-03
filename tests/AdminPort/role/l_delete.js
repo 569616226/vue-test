@@ -1,7 +1,7 @@
 const roleMangeNav = "//div[@class='left']//span[text()='角色管理']";
 const delRoleBtn = "//table/tbody/tr[1]/td[4]/div[1]/div[1]//span[2]";
 const confirmBtn = "//body/div[last()-1]/div[1]/div[3]/button[2]/span";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
 'get del_role in youqikang': function (client) {

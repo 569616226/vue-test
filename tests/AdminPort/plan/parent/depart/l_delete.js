@@ -3,7 +3,7 @@ const editPlanBtn = "//div[@class='right']/div[1]/div[2]//table[1]/tbody/tr[1]/t
 const planDepartMangeBtn = "//div[@class='right']//span[text()='管理部门']";
 const delPlanBtn = "//table/tbody/tr[1]/td[2]/div[1]/div[1]//span[2]";
 const confirmBtn = "//body/div[last()-1]/div[1]/div[3]/button[2]/span";
-const mock = require('../../../../mock/mock.js');
+const mock = require('../../../../../mock/mock.js');
 
 module.exports = {
     'get del_parent_plan_depart in youqikang': function (client) {

@@ -4,7 +4,7 @@ const editPasswordBtn = "//li[text()='修改密码']";
 const editPasswordInput = "//div[@class='header']/div[2]/div[2]/form/div[1]//input";
 const editPasswordConfirmInput = "//div[@class='header']/div[2]/div[2]/form/div[2]//input";
 const editPasswordSubBtn = "//div[@class='header']/div[2]/div[2]/form/div[3]//button[text()='提交']";
-const mock = require('../../mock/mock.js');
+const mock =require('../../../mock/mock.js');
 
 module.exports = {
     'logout in youqikang': function (client) {

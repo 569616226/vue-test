@@ -4,75 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/tests/AdminPort/login/logout.js" line="24" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ee11cca-d23f-4e68-9037-351e354ec8f8" name="Default" comment="完善账号管理、客户管理、客户联系人管理测试">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
+    <list default="true" id="0ee11cca-d23f-4e68-9037-351e354ec8f8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mock/mock.js" afterPath="$PROJECT_DIR$/mock/mock.js" />
-      <change beforePath="$PROJECT_DIR$/reports/create_admin.png" afterPath="$PROJECT_DIR$/reports/create_admin.png" />
-      <change beforePath="$PROJECT_DIR$/reports/create_company.png" afterPath="$PROJECT_DIR$/reports/create_company.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_admin.png" afterPath="$PROJECT_DIR$/reports/del_admin.png" />
-      <change beforePath="$PROJECT_DIR$/reports/del_client.png" afterPath="$PROJECT_DIR$/reports/del_client.png" />
-      <change beforePath="$PROJECT_DIR$/reports/find_admin.png" afterPath="$PROJECT_DIR$/reports/find_admin.png" />
-      <change beforePath="$PROJECT_DIR$/reports/find_client.png" afterPath="$PROJECT_DIR$/reports/find_client.png" />
-      <change beforePath="$PROJECT_DIR$/reports/find_company.png" afterPath="$PROJECT_DIR$/reports/find_company.png" />
-      <change beforePath="$PROJECT_DIR$/reports/frozen_admin.png" afterPath="$PROJECT_DIR$/reports/frozen_admin.png" />
-      <change beforePath="$PROJECT_DIR$/reports/frozen_client.png" afterPath="$PROJECT_DIR$/reports/frozen_client.png" />
-      <change beforePath="$PROJECT_DIR$/selenium-debug.log" afterPath="$PROJECT_DIR$/selenium-debug.log" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/frozen.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/frozen.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/admin/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/admin/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/frozen.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/frozen.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/client/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/client/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/company/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/company/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/home/index.js" afterPath="$PROJECT_DIR$/tests/AdminPort/home/index.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/edit_password.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/edit_password.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/login_frozen.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/login_frozen.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/login_name_error.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/login_name_error.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/login_success.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/login_success.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/login/logout.js" afterPath="$PROJECT_DIR$/tests/AdminPort/login/logout.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/logs/lists.js" afterPath="$PROJECT_DIR$/tests/AdminPort/logs/lists.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_client.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_client.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_company.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_company.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_no_copy_from_old_plan.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_no_copy_from_old_plan.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/create_with_copy_from_old_plan.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/create_with_copy_from_old_plan.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/edit_plan_in_edit_order.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/edit_plan_in_edit_order.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/order/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/order/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/permission/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/permission/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/depart/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/depart/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/depart/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/depart/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/depart/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/depart/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/depart/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/parent/question/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/question/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/question/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/question/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/question/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/plan/question/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/plan/question/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/create.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/create.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/edit.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/edit.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/find.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/find.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/role/l_delete.js" afterPath="$PROJECT_DIR$/tests/AdminPort/role/l_delete.js" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminPort/wechat/index.js" afterPath="$PROJECT_DIR$/tests/AdminPort/wechat/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -283,24 +216,6 @@
               <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdminPort" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vue_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue_test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdminPort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="company" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -382,7 +297,7 @@
       <workItem from="1532995797304" duration="10741000" />
       <workItem from="1533028819117" duration="768000" />
       <workItem from="1533170363838" duration="16495000" />
-      <workItem from="1533254554607" duration="19754000" />
+      <workItem from="1533254554607" duration="19846000" />
     </task>
     <task id="LOCAL-00001" summary="增加 开发分支 develop">
       <created>1532912304245</created>
@@ -440,11 +355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533201949779</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完善账号管理、客户管理、客户联系人管理测试">
+      <created>1533281977127</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533281977127</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完善账号管理、客户管理、客户联系人管理测试">
+      <created>1533282017216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533282017216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163489000" />
+    <option name="totallyTimeSpent" value="163581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +423,8 @@
     <MESSAGE value="完善后增加测试模拟数据" />
     <MESSAGE value="诊断管理标准库问题创建，新增问题无法测试点击。其他测试主流程全部完成" />
     <MESSAGE value="增加退出登陆和修改密码测试。优化代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加退出登陆和修改密码测试。优化代码" />
+    <MESSAGE value="完善账号管理、客户管理、客户联系人管理测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善账号管理、客户管理、客户联系人管理测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -577,6 +507,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -584,6 +515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -591,6 +523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,6 +531,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,6 +539,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,6 +547,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,6 +555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -626,6 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,6 +571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,6 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,6 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -662,6 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

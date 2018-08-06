@@ -3,50 +3,76 @@ const createRoleBtn = "//button/span[text()='新建角色']";
 const roleNameInput = "//div[@class='right']//form/div[1]/div[1]/div[1]/input[@type='text']";
 const rolenameInput = "//div[@class='right']//form/div[2]/div[1]/div[1]/input[@type='text']";
 const submitBtn = "//button/span[text()='提交']";
-const mock =require('../../../mock/mock.js');
+const mock = require('../../../mock/mock.js');
 
 module.exports = {
-'get create_role in youqikang': function (client) {
+    'get create_role in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
-        client.url(client.launchUrl).maximizeWindow()
-            //登陆
+        client
+            .url(client.launchUrl).maximizeWindow()
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+        // .waitForElementVisible(mock.nameInput, mock.pauseTime)
             .setValue(mock.nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
             .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
             .click(mock.loginBtn)//点击登陆
-            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .pause(mock.pauseTime)
+
+            // .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
             .assert.urlEquals(client.launchUrl)
 
-            //角色管理
+        //角色管理
             .useXpath()
-            .waitForElementVisible(roleMangeNav, mock.pauseTime)
+            // .waitForElementVisible(roleMangeNav, mock.pauseTime)
             .click(roleMangeNav)
             .pause(mock.pauseTime)
+
             .assert.urlEquals(client.launchUrl + 'SetUp/RoleMange')
 
-            //新建角色
-            .waitForElementVisible(createRoleBtn, mock.pauseTime)
+        //新建角色
+        // .waitForElementVisible(createRoleBtn, mock.pauseTime)
             .click(createRoleBtn)
+            .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'SetUp/AddRole')
 
-            //输入角色名
-            .waitForElementVisible(roleNameInput, mock.pauseTime)
-            .setValue(roleNameInput.nameInput,mock.name)
-
-            //输入标识
-            .waitForElementVisible(rolenameInput, mock.pauseTime)
-            .setValue(roleNameInput,mock.cname)
-
-            .waitForElementVisible(submitBtn, mock.pauseTime)
-            .click(submitBtn)
+            .click(mock.backIcon)
             .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'SetUp/RoleMange')
-            
+
+        //新建角色
+        // .waitForElementVisible(createRoleBtn, mock.pauseTime)
+            .click(createRoleBtn)
+            .pause(mock.pauseTime)
+            .assert.urlEquals(client.launchUrl + 'SetUp/AddRole')
+
+            .click(mock.backBtn)
+            .pause(mock.pauseTime)
+            .assert.urlEquals(client.launchUrl + 'SetUp/RoleMange')
+
+        //新建角色
+        // .waitForElementVisible(createRoleBtn, mock.pauseTime)
+            .click(createRoleBtn)
+            .pause(mock.pauseTime)
+            .assert.urlEquals(client.launchUrl + 'SetUp/AddRole')
+
+        //输入角色名
+        // .waitForElementVisible(roleNameInput, mock.pauseTime)
+            .setValue(roleNameInput, mock.name)
+
+            //输入标识
+            // .waitForElementVisible(rolenameInput, mock.pauseTime)
+            .setValue(rolenameInput, mock.cname)
+
+            // .waitForElementVisible(submitBtn, mock.pauseTime)
+            .click(submitBtn)
+            .pause(mock.pauseTime)
+
+            .assert.urlEquals(client.launchUrl + 'SetUp/RoleMange')
+
             .saveScreenshot('reports/create_role.png') // 截屏
             .end()
     }
-}
+};

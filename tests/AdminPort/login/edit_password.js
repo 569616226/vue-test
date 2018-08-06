@@ -14,34 +14,35 @@ module.exports = {
             .url(client.launchUrl).maximizeWindow()
 
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            // .waitForElementVisible(mock.nameInput, mock.pauseTime)
 
             .setValue(mock.nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
 
             .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
             .click(mock.loginBtn)//点击登陆
+            .pause(mock.pauseTime)
 
-            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            // .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
 
-            .waitForElementVisible(userInfoDiv, mock.pauseTime)
+            // .waitForElementVisible(userInfoDiv, mock.pauseTime)
             .click(userInfoDiv)
 
             .useXpath()
-            .waitForElementVisible(editPasswordBtn, mock.pauseTime)
+            // .waitForElementVisible(editPasswordBtn, mock.pauseTime)
             .click(editPasswordBtn)
 
             //输入密码
-            .waitForElementVisible(editPasswordInput, mock.pauseTime)
+            // .waitForElementVisible(editPasswordInput, mock.pauseTime)
             .setValue(editPasswordInput,mock.password)
 
             //输入密码
-            .waitForElementVisible(editPasswordConfirmInput, mock.pauseTime)
+            // .waitForElementVisible(editPasswordConfirmInput, mock.pauseTime)
             .setValue(editPasswordConfirmInput,mock.password)
 
             //确定
-            .waitForElementVisible(editPasswordSubBtn, mock.pauseTime)
+            // .waitForElementVisible(editPasswordSubBtn, mock.pauseTime)
             .setValue(editPasswordSubBtn,mock.password)
 
             .waitForElementNotVisible(editPasswordBtn, mock.pauseTime)

@@ -9,15 +9,16 @@ module.exports = {
             .url(client.launchUrl).maximizeWindow()
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
 
-            .waitForElementVisible(mock.mock.nameInput, mock.pauseTime)
+            // .waitForElementVisible(mock.mock.nameInput, mock.pauseTime)
             .setValue(mock.mock.nameInput, 'error name')//输入账号
 
-            .waitForElementVisible(mock.mock.pwdInput, mock.pauseTime)
+            // .waitForElementVisible(mock.mock.pwdInput, mock.pauseTime)
             .setValue(mock.mock.pwdInput, mock.super_admin_password)//输入密码
             .click(mock.mock.loginBtn)//点击登陆
+            .pause(mock.pauseTime)
 
             .useXpath()
-            .waitForElementVisible(mock.alertDiv, mock.pauseTime)
+            // .waitForElementVisible(mock.alertDiv, mock.pauseTime)
             .assert.containsText(mock.alertDiv, "账号名或者密码错误")
 
             .assert.urlEquals(client.launchUrl+'login?redirect=%2F')

@@ -8,40 +8,58 @@ module.exports = {
     'get del_plan_question in youqikang': function (client) {
 
         // 启动浏览器并打开http://admin.check.elinkport.com
-        client.url(client.launchUrl).maximizeWindow()
-        //登陆
+        client
+            .url(client.launchUrl).maximizeWindow()
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+        // .waitForElementVisible(mock.nameInput, mock.pauseTime)
             .setValue(mock.nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
             .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
             .click(mock.loginBtn)//点击登陆
-            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .pause(mock.pauseTime)
+
+            // .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
         //诊断标准管理
             .useXpath()
-            .waitForElementVisible(planMangeNav, mock.pauseTime)
+            // .waitForElementVisible(planMangeNav, mock.pauseTime)
             .click(planMangeNav)
             .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 
         //编辑
-            .waitForElementVisible(editParentPlanBtn, mock.pauseTime)
+        //     .waitForElementVisible(editParentPlanBtn, mock.pauseTime)
             .click(editParentPlanBtn)
             .pause(mock.pauseTime)
             .assert.urlContains('Mange/EditDiagnose')
 
         //删除
-            .waitForElementVisible(delPlanBtn, mock.pauseTime)
+        //     .waitForElementVisible(delPlanBtn, mock.pauseTime)
             .assert.containsText(delPlanBtn, "删除")
             .click(delPlanBtn)
             .pause(mock.pauseTime)
+
+            //删除
+            .click(confirmBtn)
+            .pause(mock.pauseTime)
+            //关闭确认弹窗
+            .click(mock.e_closeIcon)
+            .pause(mock.pauseTime)
+
+            //删除
+            .click(confirmBtn)
+            .pause(mock.pauseTime)
+            //取消删除
+            .click(mock.cancelBtn)
+            .pause(mock.pauseTime)
+
+            //确认删除
             .click(confirmBtn)
             .pause(mock.pauseTime)
 
             .saveScreenshot('reports/del_plan_question.png') // 截屏
             .end()
     }
-}
+};

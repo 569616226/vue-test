@@ -23,7 +23,7 @@ module.exports = {
             .click(mock.loginBtn)//点击登陆
             .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
         //诊断标准管理
             .useXpath()

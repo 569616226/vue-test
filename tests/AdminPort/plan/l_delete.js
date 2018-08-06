@@ -10,18 +10,21 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
             //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            // .waitForElementVisible(mock.nameInput, mock.pauseTime)
             .setValue(mock.nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
             .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
             .click(mock.loginBtn)//点击登陆
-            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .pause(mock.pauseTime)
+
+            // .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             //权限管理
             .useXpath()
-            .waitForElementVisible(planMangeNav, mock.pauseTime)
+            // .waitForElementVisible(planMangeNav, mock.pauseTime)
             .click(planMangeNav)
             .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
@@ -30,6 +33,19 @@ module.exports = {
             .assert.containsText(delPlanBtn, "删除")
             .click(delPlanBtn)
             .pause(mock.pauseTime)
+
+            .click(mock.e_closeIcon)
+            .pause(mock.pauseTime)
+
+            .click(delPlanBtn)
+            .pause(mock.pauseTime)
+
+            .click(mock.cancelBtn)
+            .pause(mock.pauseTime)
+
+            .click(delPlanBtn)
+            .pause(mock.pauseTime)
+
             .click(confirmBtn)
             .pause(mock.pauseTime)
 

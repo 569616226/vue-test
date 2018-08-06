@@ -9,12 +9,12 @@ module.exports = {
             .url(client.launchUrl).maximizeWindow()
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
 
-            // .waitForElementVisible(mock.mock.nameInput, mock.pauseTime)
-            .setValue(mock.mock.nameInput, 'error name')//输入账号
+            // .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, 'error name')//输入账号
 
-            // .waitForElementVisible(mock.mock.pwdInput, mock.pauseTime)
-            .setValue(mock.mock.pwdInput, mock.super_admin_password)//输入密码
-            .click(mock.mock.loginBtn)//点击登陆
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
+            .click(mock.loginBtn)//点击登陆
             .pause(mock.pauseTime)
 
             .useXpath()

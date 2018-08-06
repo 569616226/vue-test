@@ -19,7 +19,7 @@ module.exports = {
             .click(mock.loginBtn)//点击登陆
             .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             //点击新建订单
             .useXpath()
@@ -31,7 +31,7 @@ module.exports = {
             .waitForElementVisible(homeNavBtn, mock.pauseTime)
             .click(homeNavBtn)
             .pause(mock.pauseTime)
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             .waitForElementVisible(createPlanBtn, mock.pauseTime)
             .click(createPlanBtn)
@@ -41,7 +41,7 @@ module.exports = {
             .waitForElementVisible(homeNavBtn, mock.pauseTime)
             .click(homeNavBtn)
             .pause(mock.pauseTime)
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             .waitForElementVisible(createCompanyBtn, mock.pauseTime)
             .click(createCompanyBtn)
@@ -51,7 +51,7 @@ module.exports = {
             .waitForElementVisible(homeNavBtn, mock.pauseTime)
             .click(homeNavBtn)
             .pause(mock.pauseTime)
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             .waitForElementVisible(createClientBtn, mock.pauseTime)
             .click(createClientBtn)

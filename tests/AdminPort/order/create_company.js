@@ -24,7 +24,7 @@ module.exports = {
             .click(mock.loginBtn)
             .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             //点击订单管理
             .useXpath()

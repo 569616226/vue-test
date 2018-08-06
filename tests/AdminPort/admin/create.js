@@ -27,7 +27,7 @@ module.exports = {
             .pause(mock.pauseTime)
 
             // .waitForElementVisible(mock.homePageText, mock.pauseTime)
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
             //账号管理
             .useXpath()

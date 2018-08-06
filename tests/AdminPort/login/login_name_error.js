@@ -8,12 +8,12 @@ module.exports = {
             .url(client.launchUrl).maximizeWindow()
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
 
-            // .waitForElementVisible(mock.mock.nameInput, mock.pauseTime)
-            .setValue(mock.mock.nameInput, 'frozen_test')//输入账号
+            // .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            .setValue(mock.nameInput, 'frozen_test')//输入账号
 
-            // .waitForElementVisible(mock.mock.pwdInput, mock.pauseTime)
-            .setValue(mock.mock.pwdInput, 'frozen_test')//输入密码
-            .click(mock.mock.loginBtn)//点击登陆
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+            .setValue(mock.pwdInput, 'frozen_test')//输入密码
+            .click(mock.loginBtn)//点击登陆
             .pause(mock.pauseTime)
 
             .useXpath()

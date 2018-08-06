@@ -13,45 +13,48 @@ module.exports = {
         client.url(client.launchUrl).maximizeWindow()
         //登陆
             .assert.urlEquals(client.launchUrl + 'login?redirect=%2F')
-            .waitForElementVisible(mock.nameInput, mock.pauseTime)
+            // .waitForElementVisible(mock.nameInput, mock.pauseTime)
             .setValue(mock.nameInput, mock.super_admin)//输入账号
-            .waitForElementVisible(mock.pwdInput, mock.pauseTime)
+
+            // .waitForElementVisible(mock.pwdInput, mock.pauseTime)
             .setValue(mock.pwdInput, mock.super_admin_password)//输入密码
             .click(mock.loginBtn)//点击登陆
-            .waitForElementVisible(mock.homePageText, mock.pauseTime)
+            .pause(mock.pauseTime)
+
+            // .waitForElementVisible(mock.homePageText, mock.pauseTime)
             .assert.containsText(mock.homePageText, "欢迎使用，优企康管理平台")
-            .assert.urlEquals(client.launchUrl)
+            //.assert.urlEquals(client.launchUrl)
 
         //诊断标准管理
             .useXpath()
-            .waitForElementVisible(planMangeNav, mock.pauseTime)
+            // .waitForElementVisible(planMangeNav, mock.pauseTime)
             .click(planMangeNav)
             .pause(mock.pauseTime)
             .assert.urlEquals(client.launchUrl + 'Mange/DiagnoseMange')
 
         //编辑方案
-            .waitForElementVisible(editPlanBtn, mock.pauseTime)
+        //     .waitForElementVisible(editPlanBtn, mock.pauseTime)
             .click(editPlanBtn)
             .assert.urlContains('Mange/EditDiagnose')
 
         //管理部门
-            .waitForElementVisible(planDepartMangeBtn, mock.pauseTime)
+        //     .waitForElementVisible(planDepartMangeBtn, mock.pauseTime)
             .click(planDepartMangeBtn)
             .pause(mock.pauseTime)
             .assert.urlContains('Mange/DepartsMange')
 
         //编辑
-            .waitForElementVisible(editDedaprtPlanBtn, mock.pauseTime)
+        //     .waitForElementVisible(editDedaprtPlanBtn, mock.pauseTime)
             .click(editDedaprtPlanBtn)
             .assert.urlContains('Mange/EditDeparts')
 
         //输入库名称
-            .waitForElementVisible(planDisPlayNameInput, mock.pauseTime)
+        //     .waitForElementVisible(planDisPlayNameInput, mock.pauseTime)
             .clearValue(planDisPlayNameInput)
             .pause(mock.pauseTime)
             .setValue(planDisPlayNameInput, mock.cname)
 
-            .waitForElementVisible(submitBtn, mock.pauseTime)
+            // .waitForElementVisible(submitBtn, mock.pauseTime)
             .click(submitBtn)
             .pause(mock.pauseTime)
             .assert.urlContains('Mange/DepartsMange')
